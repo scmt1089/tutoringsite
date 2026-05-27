@@ -30,7 +30,7 @@ const steps = [
   {
     number: "Step 01",
     title: "Tell us about your child's education",
-    body: "A free fifteen-minute call with a founder. We want to understand your child properly, where they are now and what they need to achieve. A proper conversation, no sales pitch.",
+    body: "A free fifteen-minute call with a founder. We want to understand your child properly, where they are now and what they need to achieve. A proper conversation about what they need.",
   },
   {
     number: "Step 02",
@@ -176,7 +176,7 @@ export default function HomePage() {
 
       <CtaBand
         heading="Ready to talk about your child's education?"
-        body="Book a free fifteen-minute call with a founder. No commitment required, just an honest conversation about what your child needs."
+        body="Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed."
       />
     </>
   );

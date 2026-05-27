@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Book a free call",
-  description: "Book a free fifteen-minute call with a founder. No commitment, no pressure.",
+  description: "Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed.",
 };
 
 const trustSignals = [
@@ -20,7 +20,7 @@ export default function BookPage() {
             Book a free fifteen-minute call.
           </h1>
           <p className="text-white/65 text-base leading-relaxed">
-            No commitment, no pressure. Just a conversation about your child and what they need.
+            A genuine conversation about your child and what they need. Book at a time that suits you.
           </p>
           <div className="flex justify-center gap-10 mt-8">
             {trustSignals.map((t) => (

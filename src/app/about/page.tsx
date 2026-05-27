@@ -118,7 +118,7 @@ export default function AboutPage() {
 
       <CtaBand
         heading="Ready to talk about your child's education?"
-        body="Book a free fifteen-minute call with a founder. No commitment required, just an honest conversation about what your child needs."
+        body="Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed."
       />
     </>
   );

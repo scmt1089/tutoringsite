@@ -83,7 +83,7 @@ export default function PricingPage() {
     <>
       <PageHero
         heading="Pricing."
-        subheading="No hidden rates. Clear packages, tutors we know personally, and a free consultation before you commit to anything."
+        subheading="Clear packages, backed by tutors we know personally. Book a free consultation before you commit to anything."
       />
 
       <Section>
@@ -107,7 +107,7 @@ export default function PricingPage() {
 
       <CtaBand
         heading="Not sure which package is right?"
-        body="Book a free call and we will tell you exactly what we would recommend, and why. No guesswork on your part."
+        body="Book a free call and we will tell you exactly what we would recommend, and why."
       />
     </>
   );
