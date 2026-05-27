@@ -10,27 +10,27 @@ const strands = [
   {
     tag: "Lead specialism",
     title: "Personal statements",
-    body: "The personal statement is one of the most difficult pieces of writing a seventeen-year-old will face: high stakes, deeply personal, and entirely unlike anything taught in school. Our personal statement work is led by an Oxford first-class law graduate with years of experience helping students find and articulate what makes them worth paying attention to. We work with students at every stage, from the blank page to the final draft.",
+    body: "The personal statement is one of the most difficult pieces of writing a student will produce. It is high-stakes and deeply personal, and nothing in school prepares them for it. Our personal statement work is led by an Oxford first-class law graduate who has spent years helping students find and articulate what makes them worth paying attention to. We work with students at every stage of the drafting process.",
   },
   {
     tag: "Oxbridge",
     title: "Oxbridge preparation",
-    body: "Getting into Oxford or Cambridge requires more than strong grades. It requires the ability to think on your feet, engage critically with unfamiliar material, and hold a genuine intellectual conversation. We prepare students for every stage of the Oxbridge application: personal statement, admissions tests, and interview.",
+    body: "Getting into Oxford or Cambridge requires more than strong grades. It requires the ability to think on your feet and engage genuinely with difficult ideas. We know what the process demands, having been through it ourselves, and we prepare students for each stage of the application.",
   },
   {
     tag: "Law",
     title: "LNAT preparation",
-    body: "The Law National Aptitude Test is one of the most demanding admissions assessments in the UK. Our LNAT preparation covers both the multiple-choice and essay sections, with particular attention to the kind of analytical reading and structured argumentation the test rewards.",
+    body: "The Law National Aptitude Test is one of the most demanding admissions assessments in the UK. Our preparation covers both sections: the multiple-choice and the essay. The focus is on the analytical reading and structured argumentation the test rewards.",
   },
   {
     tag: "Interviews",
     title: "Interview coaching",
-    body: "University interviews, and Oxbridge interviews in particular, reward students who can think under pressure and engage genuinely with difficult questions. We run mock interviews, identify weaknesses, and build the kind of intellectual confidence that comes across in the room.",
+    body: "University interviews, Oxbridge interviews in particular, reward students who can think under pressure and engage genuinely with difficult questions. We run mock interviews to identify the areas that need work and build the intellectual confidence that comes across in the room.",
   },
   {
     tag: "General",
     title: "UCAS guidance",
-    body: "For students and families navigating UCAS for the first time, we offer full guidance through the process: course selection, university shortlisting, application strategy, and timeline management.",
+    body: "UCAS is genuinely confusing the first time, and the decisions made early in the process matter more than most families realise. We have navigated it ourselves and guided many students through it since. We take families through the full process, making sure everything is in place before the deadline.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function AdmissionsPage() {
     <>
       <PageHero
         heading="Admissions preparation."
-        subheading="Getting into the right university is one of the highest-stakes processes a student will go through. We've been through it, and we know how to prepare for it."
+        subheading="Getting into the right university is one of the highest-stakes things a student will face. We have been through it ourselves and helped many others since. You do not need to research this; we have done that for you."
       />
 
       <Section>

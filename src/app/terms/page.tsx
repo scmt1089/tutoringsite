@@ -72,7 +72,7 @@ export default function TermsPage() {
               <span className="text-navy-700">[contact email]</span>. The time of receipt
               of your email is used to determine which tier applies. In exceptional
               circumstances (serious illness, bereavement), we will consider a waiver at
-              our discretion — please get in touch as soon as possible.
+              our discretion. Please get in touch as soon as possible.
             </p>
             <p className="section-body leading-loose mt-4">
               Tutors also commit to giving at least 48 hours&rsquo; notice for cancellations.
@@ -96,8 +96,8 @@ export default function TermsPage() {
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Conduct</h2>
             <p className="section-body leading-loose">
               We expect all sessions to be conducted respectfully by all parties. We reserve
-              the right to end the relationship with a client — with a pro-rata refund for
-              unused sessions — if a student or family member behaves in a way that is
+              the right to end the relationship with a client, with a pro-rata refund for
+              unused sessions, if a student or family member behaves in a way that is
               abusive, threatening, or otherwise unacceptable toward a tutor.
             </p>
           </div>

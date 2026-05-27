@@ -18,20 +18,21 @@ export default function JoinPage() {
     <>
       <PageHero
         heading="Join the [name] network."
-        subheading="We work with Oxford and Russell Group graduates who take teaching seriously. If that sounds like you, we'd like to hear from you."
+        subheading="We work with Oxford and Russell Group graduates who take teaching seriously. If that sounds like you, we would like to hear from you."
       />
 
       <Section>
         <HeadingBlock label="What we look for" heading="Our standards." />
         <p className="section-body max-w-2xl leading-loose mt-2 mb-8">
           We only work with tutors we know personally or can verify through trusted
-          referral. A strong academic background is a starting point, not a guarantee.
-          We look for people who find genuine pleasure in teaching and can demonstrate it.
+          referral. A strong academic background is expected; what we are looking for
+          beyond that is someone who finds genuine pleasure in teaching and can
+          demonstrate it.
         </p>
         <ul className="space-y-3 max-w-lg">
           {criteria.map((c) => (
             <li key={c} className="flex gap-3 items-start">
-              <span className="text-gold-500 mt-0.5">✓</span>
+              <span className="text-gold-500 mt-0.5">+</span>
               <span className="text-navy-700 text-sm leading-relaxed">{c}</span>
             </li>
           ))}

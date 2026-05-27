@@ -76,7 +76,7 @@ export default function SubjectPage({ params }: Props) {
 
       <CtaBand
         heading={`Ready to find a tutor for ${subject.name}?`}
-        body="Book a free fifteen-minute call and we'll match your child with the right person."
+        body="Book a free fifteen-minute call and we will match your child with the right person."
       />
     </>
   );

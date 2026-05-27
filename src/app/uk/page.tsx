@@ -31,8 +31,9 @@ export default function UKPage() {
             Expert online tutoring for UK students, from Oxford graduates.
           </h1>
           <p className="text-white/70 text-lg leading-relaxed mb-8">
-            From the 11-plus to A-levels and Oxbridge applications, [name] works with
-            UK families who want more than the standard tutoring marketplace can offer.
+            The tutoring market is noisy and hard to navigate. We have done the work
+            of finding the people who are actually good, and we are here to make sure
+            your family gets to them without the guesswork.
           </p>
           <Btn href="/book">Book a free consultation</Btn>
           <div className="flex gap-2 flex-wrap mt-6">
@@ -54,7 +55,7 @@ export default function UKPage() {
             <HeadingBlock
               label="For UK families"
               heading="The tutoring market is full. Quality is harder to find."
-              body="Most tutoring platforms are marketplaces with hundreds of profiles and no curation. [name] is different: a small, personally managed practice where every tutor is known to us and every match is made deliberately. We work with all major UK exam boards across every key stage."
+              body="Most tutoring platforms are marketplaces with hundreds of profiles and no curation. We have spent years getting to know the tutors who are actually exceptional, the ones who understand exam technique and consistently get results. [name] is small by design: every tutor is known to us personally, every match is made deliberately. We work with all major UK exam boards across every key stage."
             />
             <Link href="/book" className="text-link mt-5 inline-block">
               Book a free call →
@@ -77,7 +78,7 @@ export default function UKPage() {
 
       <CtaBand
         heading="Ready to find the right tutor?"
-        body="Book a free call with a founder and we'll match your child with the right person."
+        body="Book a free call with a founder and we will match your child with the right person."
       />
 
       <div className="bg-cream-200 py-4 px-6 text-center">

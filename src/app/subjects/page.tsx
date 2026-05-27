@@ -9,9 +9,10 @@ export const metadata: Metadata = {
 };
 
 const groups = [
-  { key: "school",     label: "School-age",     sublabel: "GCSE and below" },
-  { key: "sixthform",  label: "Sixth form",      sublabel: "A-level and IB" },
-  { key: "university", label: "University",      sublabel: "Degree level and admissions" },
+  { key: "entrance",   label: "Entrance exams",  sublabel: "7-plus to 13-plus" },
+  { key: "school",     label: "School-age",       sublabel: "GCSE and below" },
+  { key: "sixthform",  label: "Sixth form",       sublabel: "A-level and IB" },
+  { key: "university", label: "University",       sublabel: "Degree level and admissions" },
 ] as const;
 
 export default function SubjectsPage() {
@@ -19,7 +20,7 @@ export default function SubjectsPage() {
     <>
       <PageHero
         heading="What are you preparing for?"
-        subheading="Every subject page links to a curated list of tutors with the right depth and experience."
+        subheading="Every subject page links to tutors we know personally, people with the right depth of knowledge and a track record of getting results."
       />
 
       {groups.map((group) => {
@@ -46,7 +47,7 @@ export default function SubjectsPage() {
 
       <CtaBand
         heading="Not sure which subject you need?"
-        body="Book a free call and we'll point you in the right direction."
+        body="Book a free call and we will tell you exactly what your child needs, and who can help."
       />
     </>
   );

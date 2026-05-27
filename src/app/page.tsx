@@ -30,17 +30,17 @@ const steps = [
   {
     number: "Step 01",
     title: "Tell us about your child's education",
-    body: "A free fifteen-minute call with a founder. We want to understand the full picture — where your child is, where they need to get to, and what's standing in the way. This is a proper conversation, not a sales call.",
+    body: "A free fifteen-minute call with a founder. We want to understand your child properly, where they are now and what they need to achieve. A proper conversation, no sales pitch.",
   },
   {
     number: "Step 02",
     title: "We advise on the right approach",
-    body: "We think through what your child actually needs — subject support, admissions preparation, or both — and match them with the right person from our network. You approve everything before it's booked.",
+    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. You hear about the tutor before anything is booked.",
   },
   {
     number: "Step 03",
     title: "Ongoing support, not just sessions",
-    body: "We stay involved. Sessions run online at times that suit your family, and we check in to make sure things are on track. If something isn't working, we adapt.",
+    body: "We stay involved. Sessions run online at times that suit your family, and we check in to make sure things are on track. If something is not working, we adapt.",
   },
 ];
 
@@ -65,7 +65,7 @@ export default function HomePage() {
             Educational consultancy and tutoring, founded at Oxford.
           </h1>
           <p className="text-white/70 text-lg leading-relaxed mb-8">
-            We work with families who want real guidance on their child's academic journey — not just a marketplace match. Strategy, subject support, and admissions preparation, from people who've been through the system.
+            We have spent years inside this system, as students and as tutors. We know what gets results, and we are here to make sure your family does not have to figure it out alone.
           </p>
           <Btn href="/book">Book a free consultation</Btn>
           <div className="mt-4">
@@ -85,7 +85,7 @@ export default function HomePage() {
             <HeadingBlock
               label="Our approach"
               heading="Strategy before tutoring."
-              body="Most families come to us with a specific problem. Our first job isn't to assign a tutor — it's to understand the bigger picture and make sure we're solving the right problem. The tutoring follows from that. Every student is matched personally, every tutor is known to us, and nothing is booked until we're confident it's the right fit."
+              body="Most families come to us having already tried a platform or two. What they did not get was someone who had actually thought carefully about what their child needed. We have done the research and know the tutors personally. You should not have to manage that yourself."
             />
             <Link href="/about" className="text-link mt-5 inline-block">
               Meet the founders →
@@ -111,7 +111,7 @@ export default function HomePage() {
         </div>
         <div className="mt-6">
           <Link href="/book" className="text-link">
-            Don't see what you need? Get in touch →
+            Do not see what you need? Get in touch →
           </Link>
         </div>
       </Section>
@@ -132,7 +132,7 @@ export default function HomePage() {
           <HeadingBlock
             label="Admissions"
             heading="Getting into the right university starts earlier than you think."
-            body="From personal statements to Oxbridge interviews, the admissions process is one of the most high-stakes pieces of preparation your child will face. Our admissions programme is led by an Oxford first-class law graduate with a specialism in personal statements."
+            body="The admissions process rewards preparation, and we know exactly what that looks like, having been through it ourselves and helped many students since. Our admissions programme is led by an Oxford first-class law graduate whose personal statement work has become a genuine specialism."
             light
           />
           <Link href="/admissions" className="text-gold-500 text-sm mt-5 inline-block hover:underline">
@@ -158,7 +158,7 @@ export default function HomePage() {
             <HeadingBlock
               label="International"
               heading="Based outside the UK?"
-              body="We work with British-curriculum families worldwide. Sessions run in your timezone, tutors know the curriculum your child is on, and we understand the demands of top British-curriculum schools wherever you are."
+              body="We work with British-curriculum families worldwide. Our tutors know the curriculum and the demands of the schools, and sessions run in your timezone."
             />
             <Link href="/international" className="text-link mt-5 inline-block">
               See our international offer →
@@ -176,7 +176,7 @@ export default function HomePage() {
 
       <CtaBand
         heading="Ready to talk about your child's education?"
-        body="Book a free fifteen-minute call with a founder. No commitment, no pressure — just an honest conversation about what your child needs."
+        body="Book a free fifteen-minute call with a founder. No commitment required, just an honest conversation about what your child needs."
       />
     </>
   );

@@ -6,9 +6,9 @@ export const metadata: Metadata = {
 };
 
 const trustSignals = [
-  { icon: "🕐", label: "15 minutes" },
-  { icon: "👤", label: "With a founder" },
-  { icon: "🌍", label: "Flexible timezones" },
+  { label: "15 minutes" },
+  { label: "With a founder" },
+  { label: "Flexible timezones" },
 ];
 
 export default function BookPage() {
@@ -25,7 +25,6 @@ export default function BookPage() {
           <div className="flex justify-center gap-10 mt-8">
             {trustSignals.map((t) => (
               <div key={t.label} className="text-center">
-                <span className="text-2xl block mb-2">{t.icon}</span>
                 <span className="text-white/60 text-xs">{t.label}</span>
               </div>
             ))}

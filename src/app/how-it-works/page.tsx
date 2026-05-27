@@ -10,17 +10,17 @@ const steps = [
   {
     number: "01",
     title: "Schedule a free call with a founder.",
-    body: "Not a sales call. A genuine conversation. We want to understand your child, what they're finding difficult, what they need to achieve, and what kind of person they are. This takes fifteen minutes and costs nothing. It also means that by the time we suggest a tutor, we actually know what we're looking for.",
+    body: "Not a sales call. A genuine conversation. We want to understand your child, what they are finding difficult and what they need to achieve. This takes fifteen minutes and costs nothing. It also means that by the time we suggest a tutor, we know exactly what to look for, informed by years of making these matches.",
   },
   {
     number: "02",
     title: "Let us find the right tutor.",
-    body: "We match your child with someone from our network of Oxford and Russell Group graduates. We introduce you, share the tutor's background, and you approve the match before anything is booked. No surprises.",
+    body: "We match your child with someone from our network of Oxford and Russell Group graduates, people we know personally. We share the tutor's background, and you approve before anything is booked. We have done the vetting; you make the call.",
   },
   {
     number: "03",
     title: "Begin taking lessons and seeing progress.",
-    body: "Sessions run online via video call, at times that suit your family. We accommodate UK and international timezones. Most students start with weekly sessions; the frequency adjusts to what's needed, especially around exam periods.",
+    body: "Sessions run online via video call, at times that suit your family. We accommodate UK and international timezones. Most students start with weekly sessions; the frequency adjusts to what is needed, especially around exam periods.",
   },
 ];
 
@@ -30,8 +30,8 @@ const faqs = [
     a: "Most sessions run for sixty or ninety minutes, depending on the student's age and the subject. We recommend sixty minutes for younger students and ninety for A-level and university-level work.",
   },
   {
-    q: "What if my child doesn't get on with their tutor?",
-    a: "It happens rarely, and when it does we handle it immediately. We'll find an alternative tutor at no extra cost and with no awkward conversations on your part.",
+    q: "What if my child does not get on with their tutor?",
+    a: "It happens rarely, and when it does we handle it immediately. We will find an alternative tutor at no extra cost. No awkward conversations required.",
   },
   {
     q: "Are your tutors DBS checked?",
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "Can I pay in a currency other than GBP?",
-    a: "Yes. International families can pay in their local currency. We'll confirm the equivalent rate at the time of booking.",
+    a: "Yes. International families can pay in their local currency. We will confirm the equivalent rate at the time of booking.",
   },
   {
     q: "How quickly can we get started?",
@@ -56,7 +56,7 @@ export default function HowItWorksPage() {
     <>
       <PageHero
         heading="How it works."
-        subheading="Simple, personal, and built around your child."
+        subheading="We have thought this through so you do not have to. Here is how it works."
       />
 
       <Section>
@@ -89,7 +89,7 @@ export default function HowItWorksPage() {
 
       <CtaBand
         heading="Ready to take the first step?"
-        body="Book a free fifteen-minute call and we'll take it from there."
+        body="Book a free fifteen-minute call. We will handle everything from there."
       />
     </>
   );

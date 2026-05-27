@@ -19,14 +19,14 @@ export default function AboutPage() {
       {/* Opening */}
       <Section>
         <p className="section-body max-w-2xl leading-loose">
-          After years working in education — tutoring, supporting university applications,
-          sitting on the other side of admissions processes — we kept seeing the same thing.
-          Families were navigating some of the most consequential decisions of their children's
-          academic lives without anyone to advise them properly. They were buying sessions on
-          platforms without knowing what they actually needed, and they were getting answers
-          to questions they hadn't thought to ask. [name] exists to change that. We work
-          with families as advisors first: listening, thinking through the right approach,
-          and then deploying the right people to execute on it.
+          After years working in education, tutoring students and supporting university
+          applications, we kept seeing the same thing. Families were navigating some of
+          the most consequential decisions of their children's academic lives without
+          anyone to advise them properly. They were buying sessions on platforms without
+          knowing what they actually needed. We started [name] because we had done the
+          research and knew what worked, and we wanted families to have access to that
+          without having to work it out themselves. We function as advisors. We work out
+          the right approach, then bring in the right people to execute on it.
         </p>
       </Section>
 
@@ -55,8 +55,8 @@ export default function AboutPage() {
               been tutoring for six years across Music Theory, GCSE and A-level Music,
               university-level music, 11-plus and 13-plus entrance preparation, Maths,
               English, French, and Key Stage 3 Science. There is a particular
-              satisfaction, he will tell you, in watching a student move from confusion
-              to clarity. He has spent six years chasing that moment.
+              satisfaction, he will tell you, in watching a student reach that moment of
+              clarity. He has spent six years chasing it.
             </p>
           </div>
 
@@ -85,13 +85,12 @@ export default function AboutPage() {
       <Section>
         <HeadingBlock label="How we work" heading="Advice first. Everything else follows." />
         <p className="section-body max-w-2xl leading-loose mt-2">
-          Every engagement starts with a conversation, not a form. We want to understand
-          your child's situation properly before we suggest anything. Sometimes that means
-          one tutor for one subject. Sometimes it means a structured admissions programme
-          built around a specific university goal. Sometimes it means telling a family that
-          what they think they need isn't actually what will make the difference. We run no
-          algorithms and aggregate no profiles. When we match a student with a tutor, it is
-          because we know both of them well enough to be confident the match is right.
+          Every engagement starts with a conversation. We want to understand your
+          child's situation properly before we suggest anything. We have seen enough
+          students to know which approaches work and when a quick fix is not the answer.
+          We run no algorithms and aggregate no profiles. When we match a student with
+          a tutor, it is because we know both of them well enough to be confident it
+          is right.
         </p>
       </Section>
 
@@ -109,18 +108,17 @@ export default function AboutPage() {
       <Section>
         <HeadingBlock label="Our philosophy" heading="A note on Oxford." />
         <p className="section-body max-w-2xl leading-loose mt-2">
-          We mention Oxford not to impress, but because it is relevant. The Oxford
-          tutorial system, one hour, one student, one tutor, complete intellectual
-          attention in both directions, is the model we carry into everything we do. It
-          is an extraordinarily effective way to learn. We have experienced it, and we
-          have spent years delivering our own version of it. That is what [name] is
-          built on.
+          We mention Oxford because it is relevant. The Oxford tutorial system, one hour,
+          one student, complete intellectual attention in both directions, is the model
+          we carry into everything we do. It is an extraordinarily effective way to learn,
+          and we have spent years delivering our own version of it. That is what [name]
+          is built on.
         </p>
       </Section>
 
       <CtaBand
         heading="Ready to talk about your child's education?"
-        body="Book a free fifteen-minute call with a founder. No commitment, no pressure — just an honest conversation about what your child needs."
+        body="Book a free fifteen-minute call with a founder. No commitment required, just an honest conversation about what your child needs."
       />
     </>
   );

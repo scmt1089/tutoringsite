@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Safeguarding policy",
-  description: "How [name] keeps students safe — DBS checks, online session standards, and how to report a concern.",
+  description: "How [name] keeps students safe: DBS checks, online session standards, and how to report a concern.",
 };
 
 export default function SafeguardingPage() {
@@ -28,7 +28,7 @@ export default function SafeguardingPage() {
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Designated safeguarding lead</h2>
             <p className="section-body leading-loose">
               [Founder name] acts as the designated safeguarding lead (DSL) for [name].
-              Any safeguarding concern — however minor it may seem — should be reported to
+              Any safeguarding concern, however minor it may seem, should be reported to
               the DSL in the first instance. Contact: <span className="text-navy-700">[safeguarding email]</span>.
             </p>
           </div>
@@ -60,8 +60,8 @@ export default function SafeguardingPage() {
           <div>
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Reporting a concern</h2>
             <p className="section-body leading-loose">
-              If you have a safeguarding concern — whether about a student, a tutor, or any
-              aspect of how sessions are being conducted — please contact our DSL immediately
+              If you have a safeguarding concern about a student, a tutor, or any
+              aspect of how sessions are being conducted, please contact our DSL immediately.
               at <span className="text-navy-700">[safeguarding email]</span>. All concerns are
               taken seriously, treated confidentially, and escalated to statutory authorities
               where required. If you believe a child is in immediate danger, contact the

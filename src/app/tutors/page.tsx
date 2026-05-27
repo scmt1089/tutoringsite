@@ -12,7 +12,7 @@ export default function TutorsPage() {
     <>
       <PageHero
         heading="Our tutors."
-        subheading="Every tutor in the [name] network is known to us personally. Oxford and Russell Group graduates with real subject depth and real teaching experience."
+        subheading="Every tutor in the [name] network is known to us personally. All are Oxford or Russell Group graduates, all have real subject depth and a track record of teaching it well."
       />
 
       <Section>
@@ -47,7 +47,7 @@ export default function TutorsPage() {
 
       <CtaBand
         heading="Not sure which tutor is right?"
-        body="We'll match you. Book a free call and we'll do the work."
+        body="Book a free call and we will match your child with the right person."
       />
     </>
   );

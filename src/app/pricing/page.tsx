@@ -40,7 +40,7 @@ const admissionsPackages = [
     price: "£350",
     unit: "",
     featured: false,
-    detail: "Three sessions with our personal statement specialist. Covers initial brief, full draft development, and final polish.",
+    detail: "Three sessions with our personal statement specialist. Covers initial brief, full draft development and final polish.",
   },
   {
     label: "Recommended",
@@ -48,7 +48,7 @@ const admissionsPackages = [
     price: "£750",
     unit: "",
     featured: true,
-    detail: "Personal statement, admissions test preparation, and two mock interviews. The complete package for competitive university applications.",
+    detail: "Personal statement, admissions test preparation and two mock interviews. The complete package for competitive university applications.",
   },
   {
     label: "Oxbridge",
@@ -83,7 +83,7 @@ export default function PricingPage() {
     <>
       <PageHero
         heading="Pricing."
-        subheading="Transparent, straightforward, and built around value rather than volume."
+        subheading="No hidden rates. Clear packages, tutors we know personally, and a free consultation before you commit to anything."
       />
 
       <Section>
@@ -92,7 +92,7 @@ export default function PricingPage() {
           {tutoringPackages.map((p) => <PricingCard key={p.name} {...p} />)}
         </div>
         <p className="text-navy-500 text-xs mt-5 leading-relaxed">
-          A-level, university, and admissions work is priced at £95–£120 per hour
+          A-level, university, and admissions work is priced at £95 to £120 per hour
           depending on subject and tutor. International families are billed in their
           local currency at the prevailing rate.
         </p>
@@ -107,7 +107,7 @@ export default function PricingPage() {
 
       <CtaBand
         heading="Not sure which package is right?"
-        body="Book a free call and we'll recommend the right option for your child's needs and timeline."
+        body="Book a free call and we will tell you exactly what we would recommend, and why. No guesswork on your part."
       />
     </>
   );
