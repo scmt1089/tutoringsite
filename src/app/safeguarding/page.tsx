@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Safeguarding policy",
-  description: "How [name] keeps students safe: DBS checks, online session standards, and how to report a concern.",
+  description: "How Mind's Eye Education keeps students safe: DBS checks, online session standards, and how to report a concern.",
 };
 
 export default function SafeguardingPage() {
@@ -17,7 +17,7 @@ export default function SafeguardingPage() {
           <div>
             <HeadingBlock label="Our commitment" heading="Safeguarding is a baseline, not a box to tick." />
             <p className="section-body leading-loose mt-2">
-              [name] is committed to the safety and wellbeing of every student we work with.
+              Mind's Eye Education is committed to the safety and wellbeing of every student we work with.
               This policy applies to all tutors in our network and governs how we operate
               sessions, vet staff, and respond to concerns. It is reviewed annually and
               updated whenever guidance changes.
@@ -27,9 +27,9 @@ export default function SafeguardingPage() {
           <div>
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Designated safeguarding lead</h2>
             <p className="section-body leading-loose">
-              [Founder name] acts as the designated safeguarding lead (DSL) for [name].
+              Habiba al-Khatib acts as the designated safeguarding lead (DSL) for Mind's Eye Education.
               Any safeguarding concern, however minor it may seem, should be reported to
-              the DSL in the first instance. Contact: <span className="text-navy-700">[safeguarding email]</span>.
+              the DSL in the first instance. Contact: <span className="text-navy-700">safeguarding@mindseye.education</span>.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ export default function SafeguardingPage() {
             <p className="section-body leading-loose">
               If you have a safeguarding concern about a student, a tutor, or any
               aspect of how sessions are being conducted, please contact our DSL immediately.
-              at <span className="text-navy-700">[safeguarding email]</span>. All concerns are
+              at <span className="text-navy-700">safeguarding@mindseye.education</span>. All concerns are
               taken seriously, treated confidentially, and escalated to statutory authorities
               where required. If you believe a child is in immediate danger, contact the
               police or children's services directly.

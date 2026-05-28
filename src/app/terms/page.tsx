@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Terms and conditions",
-  description: "The terms that govern your use of [name]'s tutoring services.",
+  description: "The terms that govern your use of Mind's Eye Education's tutoring services.",
 };
 
 export default function TermsPage() {
@@ -17,7 +17,7 @@ export default function TermsPage() {
           <div>
             <HeadingBlock label="Overview" heading="Plain English first." />
             <p className="section-body leading-loose mt-2">
-              These terms govern the relationship between [name] (&ldquo;we&rdquo;,
+              These terms govern the relationship between Mind's Eye Education (&ldquo;we&rdquo;,
               &ldquo;us&rdquo;, &ldquo;our&rdquo;) and any client (&ldquo;you&rdquo;) who
               engages our tutoring or admissions services. By booking a session or package,
               you agree to these terms. If anything is unclear, please get in touch before
@@ -28,7 +28,7 @@ export default function TermsPage() {
           <div>
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Our services</h2>
             <p className="section-body leading-loose">
-              [name] provides one-to-one online tutoring, admissions preparation, and related
+              Mind's Eye Education provides one-to-one online tutoring, admissions preparation, and related
               educational services. All sessions are delivered via video call. We match each
               student personally; if for any reason a match is not working, we will find an
               alternative tutor at no additional charge.
@@ -69,7 +69,7 @@ export default function TermsPage() {
             </ul>
             <p className="section-body leading-loose mt-4">
               Cancellations must be made by email to{" "}
-              <span className="text-navy-700">[contact email]</span>. The time of receipt
+              <span className="text-navy-700">info@mindseye.education</span>. The time of receipt
               of your email is used to determine which tier applies. In exceptional
               circumstances (serious illness, bereavement), we will consider a waiver at
               our discretion. Please get in touch as soon as possible.
@@ -106,7 +106,7 @@ export default function TermsPage() {
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Intellectual property</h2>
             <p className="section-body leading-loose">
               Any materials prepared by tutors for sessions remain the intellectual property
-              of [name] and the relevant tutor. You may use these materials for your child&rsquo;s
+              of Mind's Eye Education and the relevant tutor. You may use these materials for your child&rsquo;s
               personal study only. They may not be reproduced, shared, or distributed without
               our written consent.
             </p>

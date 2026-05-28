@@ -19,7 +19,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our tutors work with students at every stage of GCSE Maths and know every major exam board inside out. Sessions are built around what the student actually needs, not a generic syllabus walk-through.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Maths Tutor Online | [name]",
+    metaTitle: "GCSE Maths Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Maths tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -30,7 +30,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our English tutors develop the analytical skills and exam confidence students need across both language and literature. Clear thinking on the page is a skill, and it is one we teach directly.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE English Tutor Online | [name]",
+    metaTitle: "GCSE English Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE English tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -41,7 +41,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Maths is a significant step up from GCSE. Our tutors are experienced in helping students navigate that transition and build the rigour the subject demands.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Maths Tutor Online | [name]",
+    metaTitle: "A-level Maths Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Maths tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -52,7 +52,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Our biology tutors bring genuine subject depth to every session, covering the full A-level curriculum with the kind of clarity that makes complex topics stick.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Biology Tutor Online | [name]",
+    metaTitle: "A-level Biology Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Biology tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -63,7 +63,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Chemistry at A-level rewards students who understand the underlying logic of the subject. Memorisation alone is not enough, and our tutors teach accordingly.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Chemistry Tutor Online | [name]",
+    metaTitle: "A-level Chemistry Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Chemistry tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -74,7 +74,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Law requires strong analytical writing alongside solid legal knowledge. Our tutors teach both with equal rigour.",
     examBoards: ["AQA", "OCR"],
-    metaTitle: "A-level Law Tutor Online | [name]",
+    metaTitle: "A-level Law Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Law tutoring from Oxford Law graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -84,7 +84,7 @@ export const subjects: Subject[] = [
     level: "Entrance exams",
     group: "entrance",
     description: "We prepare students for the full range of independent and grammar school entrance exams. Our tutors know what individual schools are looking for and build preparation around the specific papers a student will sit.",
-    metaTitle: "Entrance Exam Tutor Online | [name]",
+    metaTitle: "Entrance Exam Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online entrance exam tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -94,7 +94,7 @@ export const subjects: Subject[] = [
     level: "7-plus",
     group: "entrance",
     description: "The 7-plus is a child's first experience of a formal assessment process. Our tutors prepare students carefully and calmly, building the skills and confidence they need without adding unnecessary pressure.",
-    metaTitle: "7-plus Tutor Online | [name]",
+    metaTitle: "7-plus Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online 7-plus tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -104,7 +104,7 @@ export const subjects: Subject[] = [
     level: "9-plus",
     group: "entrance",
     description: "The 9-plus sits between the 7-plus and 11-plus in complexity and expectation. Our tutors tailor preparation to the specific schools a student is targeting and the papers they will face.",
-    metaTitle: "9-plus Tutor Online | [name]",
+    metaTitle: "9-plus Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online 9-plus tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -114,7 +114,7 @@ export const subjects: Subject[] = [
     level: "11-plus",
     group: "entrance",
     description: "The 11-plus requires a specific kind of preparation, focused on speed, accuracy and question technique. Our tutors have helped many students into their first-choice schools.",
-    metaTitle: "11-plus Tutor Online | [name]",
+    metaTitle: "11-plus Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online 11-plus tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -124,7 +124,7 @@ export const subjects: Subject[] = [
     level: "13-plus",
     group: "entrance",
     description: "The 13-plus entrance exams demand strong subject knowledge alongside sharp exam technique. Our tutors prepare students thoroughly for the specific demands of their target schools.",
-    metaTitle: "13-plus Tutor Online | [name]",
+    metaTitle: "13-plus Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online 13-plus tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -135,7 +135,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our biology tutors make the detail stick. We work across all major exam boards, adapting sessions to where each student actually is.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Biology Tutor Online | [name]",
+    metaTitle: "GCSE Biology Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Biology tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -146,7 +146,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Chemistry rewards students who understand the logic behind the reactions. Our tutors teach the content and the thinking that makes it stick.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Chemistry Tutor Online | [name]",
+    metaTitle: "GCSE Chemistry Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Chemistry tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -157,7 +157,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our French tutors work across all four skills, focusing on the specific demands of GCSE assessment. Confidence and accuracy, built together.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE French Tutor Online | [name]",
+    metaTitle: "GCSE French Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE French tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -168,7 +168,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "GCSE Music is demanding across three distinct areas: performance, composition, and listening. Our tutors bring genuine musicianship and teaching experience to all three.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Music Tutor Online | [name]",
+    metaTitle: "GCSE Music Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Music tutoring from Royal College of Music and Oxford graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -179,7 +179,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our economics tutors help students build the analytical framework the subject requires, connecting real-world examples to the models and diagrams that examiners want to see.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Economics Tutor Online | [name]",
+    metaTitle: "GCSE Economics Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Economics tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -190,7 +190,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Psychology at GCSE requires students to write analytically about studies and apply theory to unfamiliar scenarios. Our tutors teach both the content and the exam craft.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Psychology Tutor Online | [name]",
+    metaTitle: "GCSE Psychology Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Psychology tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -201,7 +201,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Physics at GCSE rewards students who can apply principles to unfamiliar situations. Our tutors build genuine understanding alongside the exam technique the subject demands.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Physics Tutor Online | [name]",
+    metaTitle: "GCSE Physics Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Physics tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -212,7 +212,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "GCSE History is as much about argument and evidence as it is about facts. Our tutors teach students to construct analytical responses and handle source questions with confidence.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE History Tutor Online | [name]",
+    metaTitle: "GCSE History Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE History tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -223,7 +223,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Geography at GCSE covers physical and human topics, case studies and fieldwork. Our tutors help students master the content and write the kind of structured responses that score well.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Geography Tutor Online | [name]",
+    metaTitle: "GCSE Geography Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Geography tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -234,7 +234,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our Spanish tutors work across all four skills, focusing on the specific demands of GCSE assessment. Accuracy and confidence, built together.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Spanish Tutor Online | [name]",
+    metaTitle: "GCSE Spanish Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Spanish tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -245,7 +245,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Our German tutors work across all four skills with close attention to the grammatical precision the language demands at GCSE level.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE German Tutor Online | [name]",
+    metaTitle: "GCSE German Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE German tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -256,7 +256,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Computer Science at GCSE combines programming and theory alongside practical problem-solving. Our tutors cover both the practical and written elements of the course with equal rigour.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Computer Science Tutor Online | [name]",
+    metaTitle: "GCSE Computer Science Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Computer Science tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -267,7 +267,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Business Studies rewards students who can apply concepts to real scenarios quickly and write analytically under time pressure. Our tutors teach both the content and the exam approach.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Business Studies Tutor Online | [name]",
+    metaTitle: "GCSE Business Studies Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Business Studies tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -278,7 +278,7 @@ export const subjects: Subject[] = [
     group: "school",
     description: "Religious Studies at GCSE demands careful argument and structured written responses. Our tutors develop both, alongside the content knowledge and awareness of multiple perspectives the subject requires.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "GCSE Religious Studies Tutor Online | [name]",
+    metaTitle: "GCSE Religious Studies Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online GCSE Religious Studies tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -289,7 +289,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Physics is mathematically demanding and conceptually challenging. Our tutors bring the subject depth to explain the hard ideas clearly and the exam experience to know where marks are won and lost.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Physics Tutor Online | [name]",
+    metaTitle: "A-level Physics Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Physics tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -300,7 +300,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Further Maths is one of the most demanding A-levels on offer. Our tutors have the subject depth to teach it properly, including the modules that stretch even strong mathematicians.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Further Maths Tutor Online | [name]",
+    metaTitle: "A-level Further Maths Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Further Maths tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -311,7 +311,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "English Literature at A-level rewards close reading and precise analytical writing. Our tutors develop both, alongside the independent thinking that the top grades require.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level English Literature Tutor Online | [name]",
+    metaTitle: "A-level English Literature Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level English Literature tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -322,7 +322,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "History at A-level demands sophisticated essay writing and genuine engagement with historiographical debate. Our tutors take students beyond recall and into real historical argument.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level History Tutor Online | [name]",
+    metaTitle: "A-level History Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level History tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -333,7 +333,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Geography spans a wide range of physical and human topics, and rewards students who can write analytically and apply concepts to case studies with precision.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Geography Tutor Online | [name]",
+    metaTitle: "A-level Geography Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Geography tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -344,7 +344,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Economics at A-level is as much about clear analytical writing as it is about models and diagrams. Our tutors build both, focusing on the evaluation skills that separate the top grades.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Economics Tutor Online | [name]",
+    metaTitle: "A-level Economics Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Economics tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -355,7 +355,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Psychology rewards students who can evaluate research critically and apply theory with precision. Our tutors build subject knowledge and the analytical writing skills the top grades demand.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Psychology Tutor Online | [name]",
+    metaTitle: "A-level Psychology Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Psychology tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -366,7 +366,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "French at A-level demands precision in writing and genuine confidence in speaking, across all the complex topics the course requires. Our tutors work across all components with students aiming for the top grades.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level French Tutor Online | [name]",
+    metaTitle: "A-level French Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level French tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -377,7 +377,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Spanish at A-level requires fluency across all four skills and the ability to engage with cultural and literary topics in depth. Our tutors bring both the language ability and the teaching experience.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Spanish Tutor Online | [name]",
+    metaTitle: "A-level Spanish Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Spanish tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -388,7 +388,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "Politics at A-level rewards students who can construct a clear argument and engage critically with competing ideas. Our tutors teach the subject and the essay craft together.",
     examBoards: ["AQA", "Edexcel"],
-    metaTitle: "A-level Politics Tutor Online | [name]",
+    metaTitle: "A-level Politics Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Politics tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -399,7 +399,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Computer Science is technically demanding across both programming and theory. Our tutors cover the full specification with the depth the subject requires at this level.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Computer Science Tutor Online | [name]",
+    metaTitle: "A-level Computer Science Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Computer Science tutoring from Oxford and Russell Group graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -410,7 +410,7 @@ export const subjects: Subject[] = [
     group: "sixthform",
     description: "A-level Music demands fluency across harmony, analysis, and extended composition. Our tutors are conservatoire and university-trained musicians with deep experience at this level.",
     examBoards: ["AQA", "Edexcel", "OCR"],
-    metaTitle: "A-level Music Tutor Online | [name]",
+    metaTitle: "A-level Music Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online A-level Music tutoring from Royal College of Music and Oxford graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -420,7 +420,7 @@ export const subjects: Subject[] = [
     level: "University",
     group: "university",
     description: "Our university-level music tutors offer the specialist depth that bridges A-level and degree-level thinking, across theory, analysis, history and composition.",
-    metaTitle: "University Music Tutor Online | [name]",
+    metaTitle: "University Music Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online university-level Music tutoring from conservatoire and Oxford graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -430,7 +430,7 @@ export const subjects: Subject[] = [
     level: "University",
     group: "university",
     description: "Our university law tutors support students across core subjects and specialist modules, focusing on the quality of legal reasoning and written argument that distinguishes the best work.",
-    metaTitle: "University Law Tutor Online | [name]",
+    metaTitle: "University Law Tutor Online | Mind's Eye Education",
     metaDescription: "Expert online university-level Law tutoring from Oxford Law graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -440,7 +440,7 @@ export const subjects: Subject[] = [
     level: "University admissions",
     group: "university",
     description: "Oxbridge and competitive university interviews reward students who can think on their feet and engage genuinely with unfamiliar problems. Our tutors have been through it and know how to prepare for it.",
-    metaTitle: "University Interview Preparation | [name]",
+    metaTitle: "University Interview Preparation | Mind's Eye Education",
     metaDescription: "Expert Oxbridge and university interview preparation from Oxford graduates. Serving UK and international students. Book a free consultation.",
   },
   {
@@ -450,7 +450,7 @@ export const subjects: Subject[] = [
     level: "University admissions",
     group: "university",
     description: "Our personal statement specialism is led by an Oxford first-class law graduate who has spent years helping students find and articulate what makes them worth paying attention to.",
-    metaTitle: "Personal Statement Help Online | [name]",
+    metaTitle: "Personal Statement Help Online | Mind's Eye Education",
     metaDescription: "Expert personal statement support from Oxford graduates. Serving UK and international students applying to top UK universities. Book a free consultation.",
   },
 ];

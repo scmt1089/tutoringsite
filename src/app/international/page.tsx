@@ -20,7 +20,7 @@ export default function InternationalPage() {
             British-curriculum tutoring and admissions prep for international students.
           </h1>
           <p className="text-white/70 text-lg leading-relaxed mb-8">
-            [name] works with British-curriculum families worldwide. We have done the
+            Mind's Eye Education works with British-curriculum families worldwide. We have done the
             work of finding tutors who genuinely know the curriculum and the schools,
             so you do not have to navigate that from the other side of the world.
           </p>

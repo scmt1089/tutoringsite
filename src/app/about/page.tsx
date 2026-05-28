@@ -4,7 +4,7 @@ import { Section, HeadingBlock, CtaBand, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "The story behind [name], and the people who built it.",
+  description: "The story behind Mind's Eye Education, and the people who built it.",
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <PageHero
-        heading="We built [name] because families deserve better than a tutoring marketplace."
+        heading="We built Mind's Eye Education because families deserve better than a tutoring marketplace."
         subheading="We are educational consultants who happen to run a tutoring practice. The distinction matters."
       />
 
@@ -23,7 +23,7 @@ export default function AboutPage() {
           applications, we kept seeing the same thing. Families were navigating some of
           the most consequential decisions of their children's academic lives without
           anyone to advise them properly. They were buying sessions on platforms without
-          knowing what they actually needed. We started [name] because we had done the
+          knowing what they actually needed. We started Mind's Eye Education because we had done the
           research and knew what worked, and we wanted families to have access to that
           without having to work it out themselves. We function as advisors. We work out
           the right approach, then bring in the right people to execute on it.
@@ -35,7 +35,7 @@ export default function AboutPage() {
         <HeadingBlock label="The founders" heading="The people behind it." />
         <Image
           src="/founder-photo.jpg"
-          alt="The founders of [name]"
+          alt="The founders of Mind's Eye Education"
           width={900}
           height={500}
           className="w-full rounded-lg object-cover object-top mt-10 mb-12 max-h-[40rem]"
@@ -44,7 +44,7 @@ export default function AboutPage() {
 
           {/* Founder 1 */}
           <div className="pb-10 border-b border-cream-300">
-            <p className="font-serif text-navy-900 text-xl mb-1">[Your name]</p>
+            <p className="font-serif text-navy-900 text-xl mb-1">Samuel Thyr</p>
             <p className="text-gold-500 text-xs tracking-widest uppercase mb-4">
               BA Music · MSt Musicology with Distinction · Magdalen College, Oxford
             </p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
 
           {/* Founder 2 */}
           <div>
-            <p className="font-serif text-navy-900 text-xl mb-1">[Her name]</p>
+            <p className="font-serif text-navy-900 text-xl mb-1">Habiba al-Khatib</p>
             <p className="text-gold-500 text-xs tracking-widest uppercase mb-4">
               BA Law, First Class · Oxford · Personal Statement Specialist
             </p>
@@ -111,7 +111,7 @@ export default function AboutPage() {
           We mention Oxford because it is relevant. The Oxford tutorial system, one hour,
           one student, complete intellectual attention in both directions, is the model
           we carry into everything we do. It is an extraordinarily effective way to learn,
-          and we have spent years delivering our own version of it. That is what [name]
+          and we have spent years delivering our own version of it. That is what Mind's Eye Education
           is built on.
         </p>
       </Section>

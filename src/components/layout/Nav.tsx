@@ -19,7 +19,7 @@ export default function Nav() {
     <nav className="bg-navy-900 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link href="/" className="text-white font-serif text-lg tracking-wide">
-          [name]
+          Mind's Eye Education
         </Link>
 
         {/* Desktop links */}

@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-14">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-12">
           <div className="col-span-2 md:col-span-1">
-            <p className="font-serif text-white text-lg mb-2">[name]</p>
+            <p className="font-serif text-white text-lg mb-2">Mind's Eye Education</p>
             <p className="text-xs leading-relaxed">
               Oxford-founded tutoring and admissions. UK and international.
             </p>
@@ -56,7 +56,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="border-t border-white/10 pt-6 text-xs">
-          © {new Date().getFullYear()} [name]. All rights reserved.
+          © {new Date().getFullYear()} Mind's Eye Education. All rights reserved.
         </div>
       </div>
     </footer>

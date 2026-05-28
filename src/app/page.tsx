@@ -13,7 +13,7 @@ import {
 
 const testimonials = [
   {
-    quote: "We tried two other tutoring services before finding [name]. The difference in quality and personal attention was immediate.",
+    quote: "We tried two other tutoring services before finding Mind's Eye Education. The difference in quality and personal attention was immediate.",
     attribution: "Parent, Dubai",
   },
   {
@@ -93,7 +93,7 @@ export default function HomePage() {
           </div>
           <Image
             src="/founder-photo.jpg"
-            alt="The founders of [name]"
+            alt="The founders of Mind's Eye Education"
             width={600}
             height={288}
             className="rounded-lg w-full h-72 object-cover object-top"

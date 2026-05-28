@@ -5,8 +5,8 @@ import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "[name] | Oxford-founded tutoring and admissions",
-    template: "%s | [name]",
+    default: "Mind's Eye Education | Oxford-founded tutoring and admissions",
+    template: "%s | Mind's Eye Education",
   },
   description:
     "A boutique tutoring and admissions practice founded by Oxford graduates. Serving students across the UK and internationally, from GCSE to university entry.",

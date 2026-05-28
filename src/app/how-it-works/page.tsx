@@ -3,7 +3,7 @@ import { Section, HeadingBlock, CtaBand, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "How it works",
-  description: "How [name] matches students with the right tutor, from first call to first session.",
+  description: "How Mind's Eye Education matches students with the right tutor, from first call to first session.",
 };
 
 const steps = [
