@@ -158,9 +158,9 @@ export function SubjectCard({ name, href }: SubjectCardProps) {
   );
 }
 
-/* ── Trustpilot widget ───────────────────────────────────── */
+/* ── Google reviews button ───────────────────────────────── */
 
-export { default as TrustpilotWidget } from "./TrustpilotWidget";
+export { default as GoogleReviewsButton } from "./GoogleReviewsButton";
 
 /* ── Closing CTA band ────────────────────────────────────── */
 

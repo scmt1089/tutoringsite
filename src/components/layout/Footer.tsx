@@ -1,5 +1,5 @@
 import Link from "next/link";
-import TrustpilotWidget from "@/components/ui/TrustpilotWidget";
+import GoogleReviewsButton from "@/components/ui/GoogleReviewsButton";
 
 const footerLinks = {
   "Explore": [
@@ -58,7 +58,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="border-t border-white/10 pt-6 pb-4">
-          <TrustpilotWidget />
+          <GoogleReviewsButton />
         </div>
         <div className="text-xs mt-4">
           © {new Date().getFullYear()} Mind's Eye Education. All rights reserved.

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Section, PageHero } from "@/components/ui";
-import TrustpilotWidget from "@/components/ui/TrustpilotWidget";
+import GoogleReviewsButton from "@/components/ui/GoogleReviewsButton";
 
 export const metadata: Metadata = {
   title: "Reviews",
@@ -17,7 +17,11 @@ export default function ReviewsPage() {
 
       <Section>
         <div className="max-w-2xl">
-          <TrustpilotWidget />
+          <p className="section-body leading-loose mb-8">
+            Mind's Eye Education is listed on Google Reviews. Read what families have said
+            about working with us, or leave a review of your own.
+          </p>
+          <GoogleReviewsButton />
         </div>
       </Section>
     </>

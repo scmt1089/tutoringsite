@@ -9,7 +9,7 @@ import {
   SubjectCard,
   CtaBand,
   Section,
-  TrustpilotWidget,
+  GoogleReviewsButton,
 } from "@/components/ui";
 
 const testimonials = [
@@ -75,7 +75,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-8">
-            <TrustpilotWidget />
+            <GoogleReviewsButton />
           </div>
         </div>
       </div>
