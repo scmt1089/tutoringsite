@@ -158,6 +158,10 @@ export function SubjectCard({ name, href }: SubjectCardProps) {
   );
 }
 
+/* ── Trustpilot widget ───────────────────────────────────── */
+
+export { default as TrustpilotWidget } from "./TrustpilotWidget";
+
 /* ── Closing CTA band ────────────────────────────────────── */
 
 type CtaBandProps = {

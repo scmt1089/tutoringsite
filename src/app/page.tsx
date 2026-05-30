@@ -9,6 +9,7 @@ import {
   SubjectCard,
   CtaBand,
   Section,
+  TrustpilotWidget,
 } from "@/components/ui";
 
 const testimonials = [
@@ -72,6 +73,9 @@ export default function HomePage() {
             <Link href="/subjects" className="text-white/50 text-sm hover:text-white/80 transition-colors">
               Or browse our subjects →
             </Link>
+          </div>
+          <div className="mt-8">
+            <TrustpilotWidget />
           </div>
         </div>
       </div>

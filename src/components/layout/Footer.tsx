@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TrustpilotWidget from "@/components/ui/TrustpilotWidget";
 
 const footerLinks = {
   "Explore": [
@@ -10,6 +11,7 @@ const footerLinks = {
   ],
   "Company": [
     { label: "About",          href: "/about" },
+    { label: "Reviews",        href: "/reviews" },
     { label: "Join as a tutor", href: "/join-as-a-tutor" },
     { label: "Contact",        href: "/book" },
   ],
@@ -55,7 +57,10 @@ export default function Footer() {
             </div>
           ))}
         </div>
-        <div className="border-t border-white/10 pt-6 text-xs">
+        <div className="border-t border-white/10 pt-6 pb-4">
+          <TrustpilotWidget />
+        </div>
+        <div className="text-xs mt-4">
           © {new Date().getFullYear()} Mind's Eye Education. All rights reserved.
         </div>
       </div>
