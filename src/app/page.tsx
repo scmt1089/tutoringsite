@@ -75,7 +75,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="mt-8">
-            <GoogleReviewsButton />
+            <GoogleReviewsButton className="text-white/70 hover:text-white" />
           </div>
         </div>
       </div>
