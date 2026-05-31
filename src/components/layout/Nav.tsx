@@ -7,9 +7,9 @@ const navLinks = [
   { label: "About",         href: "/about" },
   { label: "Subjects",      href: "/subjects" },
   { label: "How it works",  href: "/how-it-works" },
-  { label: "Our tutors",    href: "/tutors" },
-  { label: "Admissions",    href: "/admissions" },
-  { label: "Pricing",       href: "/pricing" },
+  // { label: "Our tutors",    href: "/tutors" },
+  // { label: "Admissions",    href: "/admissions" },
+  // { label: "Pricing",       href: "/pricing" },
 ];
 
 export default function Nav() {

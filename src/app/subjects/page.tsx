@@ -40,6 +40,16 @@ export default function SubjectsPage() {
                   </p>
                 </Link>
               ))}
+              {group.key === "university" && (
+                <Link
+                  href="/admissions"
+                  className="card text-center hover:border-gold-500 transition-colors group"
+                >
+                  <p className="font-sans text-sm font-medium text-navy-900 group-hover:text-gold-600 transition-colors">
+                    Admissions
+                  </p>
+                </Link>
+              )}
             </div>
           </Section>
         );

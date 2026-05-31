@@ -4,10 +4,10 @@ import GoogleReviewsButton from "@/components/ui/GoogleReviewsButton";
 const footerLinks = {
   "Explore": [
     { label: "Subjects",     href: "/subjects" },
-    { label: "Our tutors",   href: "/tutors" },
-    { label: "Admissions",   href: "/admissions" },
+    // { label: "Our tutors",   href: "/tutors" },
+    // { label: "Admissions",   href: "/admissions" },
     { label: "How it works", href: "/how-it-works" },
-    { label: "Pricing",      href: "/pricing" },
+    // { label: "Pricing",      href: "/pricing" },
   ],
   "Company": [
     { label: "About",          href: "/about" },

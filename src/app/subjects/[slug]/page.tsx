@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { subjects } from "@/data/subjects";
 import { tutors } from "@/data/tutors";
-import { Section, HeadingBlock, CtaBand, Btn } from "@/components/ui";
+import { Section, HeadingBlock, CtaBand } from "@/components/ui";
 
 type Props = { params: { slug: string } };
 
@@ -38,7 +38,6 @@ export default function SubjectPage({ params }: Props) {
             <h1 className="font-serif text-h1 text-white leading-snug mb-4">
               {subject.name} tutoring.
             </h1>
-            <Btn href="/book">Book a free consultation</Btn>
           </div>
         </div>
       </div>
