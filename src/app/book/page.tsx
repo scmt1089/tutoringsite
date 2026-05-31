@@ -15,7 +15,7 @@ const trustSignals = [
 export default function BookPage() {
   return (
     <>
-      <div className="bg-navy-900 py-20 px-6 text-center">
+      <div className="bg-navy-850 py-20 px-6 text-center">
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-h1 text-white leading-snug mb-4">
             Book a free fifteen-minute call.

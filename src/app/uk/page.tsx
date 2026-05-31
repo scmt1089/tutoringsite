@@ -21,7 +21,7 @@ const ukSubjects = [
 export default function UKPage() {
   return (
     <>
-      <div className="bg-navy-900 py-24 px-6">
+      <div className="bg-navy-850 py-24 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-2xl">
           <span className="inline-block bg-gold-500/20 text-gold-400 text-xs px-3 py-1 rounded-full tracking-widest uppercase mb-5">

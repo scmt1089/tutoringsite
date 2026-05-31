@@ -30,7 +30,7 @@ type PageHeroProps = {
 
 export function PageHero({ heading, subheading }: PageHeroProps) {
   return (
-    <div className="bg-navy-900 py-20 px-6">
+    <div className="bg-navy-850 py-20 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="max-w-2xl">
           <h1 className="font-serif text-h1 text-white leading-snug mb-4">{heading}</h1>
@@ -173,7 +173,7 @@ type CtaBandProps = {
 
 export function CtaBand({ heading, body, btnLabel = "Book a free consultation", btnHref = "/book" }: CtaBandProps) {
   return (
-    <section className="bg-navy-900 py-20 px-6 text-center">
+    <section className="bg-navy-850 py-20 px-6 text-center">
       <div className="max-w-xl mx-auto">
         <h2 className="font-serif text-h2 text-white leading-snug mb-4">{heading}</h2>
         <p className="text-white/70 leading-relaxed mb-8">{body}</p>

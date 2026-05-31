@@ -24,7 +24,7 @@ export default function SubjectPage({ params }: Props) {
 
   return (
     <>
-      <div className="bg-navy-900 py-20 px-6">
+      <div className="bg-navy-850 py-20 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="max-w-2xl">
             <p className="text-gold-500 text-xs tracking-widest uppercase mb-3">

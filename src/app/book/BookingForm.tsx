@@ -65,7 +65,7 @@ export default function BookingForm() {
   }
 
   return (
-    <form action={action} className="space-y-4 max-w-lg">
+    <form action={action} className="space-y-4 max-w-lg mx-auto">
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
           <label className="block text-xs text-navy-500 mb-1">Your name <span className="text-gold-500">*</span></label>

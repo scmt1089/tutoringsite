@@ -60,7 +60,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <div className="bg-navy-900 py-24 px-6 text-center">
+      <div className="bg-navy-850 py-24 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="font-serif text-display text-white leading-tight mb-5">
             Educational consultancy and tutoring, founded at Oxford.
