@@ -1,7 +1,7 @@
 export default function GoogleReviewsButton({ className = "text-navy-700 hover:text-navy-900" }: { className?: string }) {
   return (
     <a
-      href="https://g.page/r/CX-QY8ERXwBIEBM/review"
+      href="https://g.page/r/CaccUT_wBsinEAE/review"
       target="_blank"
       rel="noopener noreferrer"
       className={`inline-flex items-center gap-2 text-sm font-medium transition-colors ${className}`}

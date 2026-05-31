@@ -17,7 +17,7 @@ export default function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-navy-850 sticky top-0 z-50">
+    <nav className="bg-navy-800 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link href="/" className="text-white font-serif text-lg tracking-wide">
           Mind's Eye Education
