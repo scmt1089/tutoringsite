@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { subjects } from "@/data/subjects";
-import { tutors } from "@/data/tutors";
 import { Section, HeadingBlock, CtaBand } from "@/components/ui";
 
 type Props = { params: { slug: string } };
@@ -22,10 +21,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default function SubjectPage({ params }: Props) {
   const subject = subjects.find((s) => s.slug === params.slug);
   if (!subject) notFound();
-
-  const relatedTutors = tutors.filter((t) =>
-    t.subjects.some((sub) => subject.name.toLowerCase().includes(sub.toLowerCase()))
-  );
 
   return (
     <>
@@ -55,23 +50,6 @@ export default function SubjectPage({ params }: Props) {
           </div>
         )}
       </Section>
-
-      {relatedTutors.length > 0 && (
-        <Section className="bg-cream-100">
-          <HeadingBlock label="Tutors" heading={`Our ${subject.name} tutors.`} />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
-            {relatedTutors.map((tutor) => (
-              <div key={tutor.id} className="card">
-                <p className="font-serif text-navy-900 text-base mb-1">{tutor.name}</p>
-                <p className="text-gold-500 text-xs tracking-wide mb-3">
-                  {tutor.university} · {tutor.degree}
-                </p>
-                <p className="text-navy-600 text-sm leading-relaxed">{tutor.bio}</p>
-              </div>
-            ))}
-          </div>
-        </Section>
-      )}
 
       <CtaBand
         heading={`Ready to find a tutor for ${subject.name}?`}

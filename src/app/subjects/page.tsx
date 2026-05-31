@@ -29,6 +29,16 @@ export default function SubjectsPage() {
           <Section key={group.key} className={group.key === "sixthform" ? "bg-cream-100" : ""}>
             <HeadingBlock label={group.label} heading={group.sublabel} />
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-8">
+              {group.key === "university" && (
+                <Link
+                  href="/admissions"
+                  className="card text-center hover:border-gold-500 transition-colors group"
+                >
+                  <p className="font-sans text-sm font-medium text-navy-900 group-hover:text-gold-600 transition-colors">
+                    Admissions
+                  </p>
+                </Link>
+              )}
               {groupSubjects.map((s) => (
                 <Link
                   key={s.id}
@@ -40,16 +50,6 @@ export default function SubjectsPage() {
                   </p>
                 </Link>
               ))}
-              {group.key === "university" && (
-                <Link
-                  href="/admissions"
-                  className="card text-center hover:border-gold-500 transition-colors group"
-                >
-                  <p className="font-sans text-sm font-medium text-navy-900 group-hover:text-gold-600 transition-colors">
-                    Admissions
-                  </p>
-                </Link>
-              )}
             </div>
           </Section>
         );

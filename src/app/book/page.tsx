@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BookingForm from "./BookingForm";
 
 export const metadata: Metadata = {
   title: "Book a free call",
@@ -32,12 +33,8 @@ export default function BookPage() {
         </div>
       </div>
 
-      {/* Booking widget embed */}
       <div className="max-w-2xl mx-auto px-6 py-16">
-        <div className="bg-cream-100 border border-cream-300 rounded-lg p-12 text-center text-navy-400 text-sm min-h-60 flex items-center justify-center">
-          {/* Replace this div with your TutorBird or Calendly embed snippet */}
-          Booking widget (TutorBird or Calendly embed)
-        </div>
+        <BookingForm />
       </div>
     </>
   );
