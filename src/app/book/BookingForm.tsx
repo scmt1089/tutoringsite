@@ -1,6 +1,6 @@
 "use client";
 
-import { useActionState } from "react";
+import { useFormState, useFormStatus } from "react-dom";
 import { sendBookingEmail, type BookingFormState } from "@/app/actions/sendBookingEmail";
 
 const timeSlots = (() => {
@@ -33,8 +33,21 @@ const inputClass =
 
 const initialState: BookingFormState = { success: false };
 
+function SubmitButton() {
+  const { pending } = useFormStatus();
+  return (
+    <button
+      type="submit"
+      disabled={pending}
+      className="btn-primary w-full text-center disabled:opacity-60"
+    >
+      {pending ? "Sending..." : "Request a call"}
+    </button>
+  );
+}
+
 export default function BookingForm() {
-  const [state, action, pending] = useActionState(sendBookingEmail, initialState);
+  const [state, action] = useFormState(sendBookingEmail, initialState);
 
   if (state.success) {
     return (
@@ -116,13 +129,7 @@ export default function BookingForm() {
         <p className="text-sm text-red-600">{state.error}</p>
       )}
 
-      <button
-        type="submit"
-        disabled={pending}
-        className="btn-primary w-full text-center disabled:opacity-60"
-      >
-        {pending ? "Sending..." : "Request a call"}
-      </button>
+      <SubmitButton />
 
       <p className="text-xs text-navy-400 text-center">
         We will confirm your slot by email within a few hours.
