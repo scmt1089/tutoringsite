@@ -40,7 +40,7 @@ const steps = [
   },
   {
     number: "Step 03",
-    title: "Receive ongoing, collaborative support."
+    title: "Receive ongoing, collaborative support.",
     body: "We stay involved throughout the whole process. Sessions run online at times that suit your family, and we check in to make sure everything is on track.",
   },
 ];
