@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Mind's Eye Education",
   },
   description:
-    "A boutique tutoring and admissions practice founded by Oxford graduates. Serving students across the UK and internationally, from primary age to university entry.",
+    "A bespoke tutoring and admissions practice founded by Oxford graduates. Serving students across the UK and internationally, from primary age to university entry.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

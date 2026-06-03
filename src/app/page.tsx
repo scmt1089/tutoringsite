@@ -35,7 +35,7 @@ const steps = [
   },
   {
     number: "Step 02",
-    title: "Let us advise on the right approach",
+    title: "Let us advise on the right approach.",
     body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. You hear about the tutor before anything is booked.",
   },
   {
@@ -61,7 +61,7 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <div className="bg-navy-850 py-24 px-6 text-center">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <h1 className="font-serif text-display text-white leading-tight mb-5">
             Family-founded, family-focused.
           </h1>

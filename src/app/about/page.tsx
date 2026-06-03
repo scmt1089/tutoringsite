@@ -49,9 +49,8 @@ export default function AboutPage() {
               BA Music, First Class · MSt Musicology with Distinction · Magdalen College, Oxford
             </p>
             <p className="section-body leading-loose max-w-2xl">
-              He read Music at Oxford, where he held a Demyship at Magdalen College,
-              one of the university's oldest and most prestigious academic scholarships,
-              and went on to complete a Master's in Musicology with Distinction. He has
+              Sam read Music at Magdalen College, Oxford, one of the university's oldest colleges,
+              and went on to complete a Master's in Musicology with Distinction under the Ralph Leavis Scholarship. He has
               been tutoring for six years across Music Theory, GCSE and A-level Music,
               university-level music, 11-plus and 13-plus entrance preparation, Maths,
               English, French, and Key Stage 3 Science. There is a particular
@@ -67,15 +66,14 @@ export default function AboutPage() {
               BA Jurisprudence, First Class · Magdalen College, Oxford · Personal Statement Specialist
             </p>
             <p className="section-body leading-loose max-w-2xl">
-              She took a First in Law at Oxford and has been teaching for longer than
+              Habiba received a First in Law at Oxford and has been teaching for longer than
               that degree took to complete. She started tutoring while still at school
               herself, which tells you something important about where this comes from
               for her. She works across Biology and Chemistry to A-level, A-level and
               university Law, LNAT preparation, and personal statements. Her personal
               statement work in particular has become something of a specialism: she
-              has a rare ability to help students find and articulate the thing that
-              makes them worth paying attention to, which is, when you think about it,
-              the entire challenge.
+              has a rare ability to help students find and articulate the connections between
+              their hobbies and interests and their target degree.
             </p>
           </div>
         </div>
