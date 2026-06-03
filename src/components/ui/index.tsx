@@ -93,7 +93,7 @@ const trustItems = [
   "Oxford graduates",
   "DBS checked tutors",
   "UK and international",
-  "GCSE to Oxbridge admissions",
+  "Primary to university entry",
 ];
 
 export function TrustStrip() {
