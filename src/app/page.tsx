@@ -14,34 +14,34 @@ import {
 
 const testimonials = [
   {
-    quote: "We tried two other tutoring services before finding Mind's Eye Education. The difference in quality and personal attention was immediate.",
-    attribution: "Parent, Dubai",
+    quote: "I have only been using this service for a month now and I feel like I have a much clearer understanding of my subjects. Habiba explains topics in a very simplified way and she is very interactive which makes the lessons interesting so I always look forward to them.",
+    attribution: "Karina, A-level student",
   },
   {
-    quote: "My daughter went from a predicted B to an A* in A-level Chemistry. More importantly she actually started enjoying the subject.",
-    attribution: "Parent, London",
+    quote: "My daughter was not sure how to approach vast syllabus of A level Biology, but Habiba made it simpler and less scary to tackle it. Her teaching style is fun and precise and my daughter made a good progress. We added Chemistry as well. It is all up to my daughter to deliver the grades she needs for medical school. We are all grateful for how Habiba supported my daughter academically and emotionally. We highly recommend Habiba!",
+    attribution: "Toko, parent",
   },
   {
-    quote: "The personal statement support was exceptional. My son got into his first choice.",
-    attribution: "Parent, Surrey",
+    quote: "I've been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she's amazing! After the first lesson with Habiba, I knew it would be her. She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don't make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :)",
+    attribution: "Charlaine, A-level student",
   },
 ];
 
 const steps = [
   {
     number: "Step 01",
-    title: "Tell us about your child's education",
-    body: "A free fifteen-minute call with a founder. We want to understand your child properly, where they are now and what they need to achieve. A proper conversation about what they need.",
+    title: "Tell us about what you need.",
+    body: "Book a free fifteen-minute call with one of the founders. We want to understand your child properly, where they are now and what they need to achieve.",
   },
   {
     number: "Step 02",
-    title: "We advise on the right approach",
+    title: "Let us advise on the right approach",
     body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. You hear about the tutor before anything is booked.",
   },
   {
     number: "Step 03",
-    title: "Ongoing support, not just sessions",
-    body: "We stay involved. Sessions run online at times that suit your family, and we check in to make sure things are on track. If something is not working, we adapt.",
+    title: "Receive ongoing, collaborative support."
+    body: "We stay involved throughout the whole process. Sessions run online at times that suit your family, and we check in to make sure everything is on track.",
   },
 ];
 
@@ -53,7 +53,7 @@ const featuredSubjects = [
   { name: "Oxbridge admissions",   href: "/admissions" },
   { name: "Personal statements",   href: "/admissions" },
   { name: "Interview preparation", href: "/admissions" },
-  { name: "Primary",               href: "/subjects" },
+  { name: "Primary education",     href: "/subjects/primary" },
 ];
 
 export default function HomePage() {
@@ -63,10 +63,10 @@ export default function HomePage() {
       <div className="bg-navy-850 py-24 px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <h1 className="font-serif text-display text-white leading-tight mb-5">
-            Educational consultancy and tutoring, founded at Oxford.
+            Family-founded, family-focused.
           </h1>
           <p className="text-white/70 text-lg leading-relaxed mb-8">
-            We have spent years inside this system, as students and as tutors. We know what gets results, and we are here to make sure your family does not have to figure it out alone.
+            We have spent years inside the education system, as students, tutors and advisors. We know what gets results, and we are here to make sure your family does not have to figure it out alone.
           </p>
           <Btn href="/book">Book a free consultation</Btn>
           <div className="mt-4">
@@ -88,8 +88,8 @@ export default function HomePage() {
           <div>
             <HeadingBlock
               label="Our approach"
-              heading="Strategy before tutoring."
-              body="Most families come to us having already tried a platform or two. What they did not get was someone who had actually thought carefully about what their child needed. We have done the research and know the tutors personally. You should not have to manage that yourself."
+              heading="Proven strategies backed by data and experience."
+              body="We have developed a deep knowledge of that works for students and their families, based on years of research, observation and pattern analysis. We apply this knowledge with every student, personalising our approach to enable them to truly learn and flourish."
             />
             <Link href="/about" className="text-link mt-5 inline-block">
               Meet the founders →
@@ -97,7 +97,7 @@ export default function HomePage() {
           </div>
           <Image
             src="/founder-photo.jpg"
-            alt="The founders of Mind's Eye Education"
+            alt="The founders of Mind's Eye Education, Sam Thyr (right) and Habiba al-Khatib (left), wearing mortar boards, hoods and graduation gowns."
             width={600}
             height={288}
             className="rounded-lg w-full h-72 object-cover object-top"
@@ -136,7 +136,7 @@ export default function HomePage() {
           <HeadingBlock
             label="Admissions"
             heading="Getting into the right university starts earlier than you think."
-            body="The admissions process rewards preparation, and we know exactly what that looks like, having been through it ourselves and helped many students since. Our admissions programme is led by an Oxford first-class law graduate whose personal statement work has become a genuine specialism."
+            body="The admissions process can be complex, but we know exactly how best to prepare for it, having been through it ourselves and helped many students since. Our admissions programme is led by an Oxford first-class law graduate whose personal statement work has become a core specialism."
             light
           />
           <Link href="/admissions" className="text-gold-500 text-sm mt-5 inline-block hover:underline">

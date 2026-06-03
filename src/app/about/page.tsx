@@ -46,7 +46,7 @@ export default function AboutPage() {
           <div className="pb-10 border-b border-cream-300">
             <p className="font-serif text-navy-900 text-xl mb-1">Samuel Thyr</p>
             <p className="text-gold-500 text-xs tracking-widest uppercase mb-4">
-              BA Music · MSt Musicology with Distinction · Magdalen College, Oxford
+              BA Music, First Class · MSt Musicology with Distinction · Magdalen College, Oxford
             </p>
             <p className="section-body leading-loose max-w-2xl">
               He read Music at Oxford, where he held a Demyship at Magdalen College,
@@ -64,7 +64,7 @@ export default function AboutPage() {
           <div>
             <p className="font-serif text-navy-900 text-xl mb-1">Habiba al-Khatib</p>
             <p className="text-gold-500 text-xs tracking-widest uppercase mb-4">
-              BA Law, First Class · Oxford · Personal Statement Specialist
+              BA Jurisprudence, First Class · Magdalen College, Oxford · Personal Statement Specialist
             </p>
             <p className="section-body leading-loose max-w-2xl">
               She took a First in Law at Oxford and has been teaching for longer than

@@ -1,29 +1,32 @@
 import type { Metadata } from "next";
-import { Section, PageHero } from "@/components/ui";
+import { Section, PageHero, CtaBand } from "@/components/ui";
 import GoogleReviewsButton from "@/components/ui/GoogleReviewsButton";
+import ReviewCarousel from "./ReviewCarousel";
 
 export const metadata: Metadata = {
   title: "Reviews",
-  description: "Read reviews from families who have worked with Mind's Eye Education.",
+  description: "Read reviews from families and students who have worked with Mind's Eye Education.",
 };
 
 export default function ReviewsPage() {
   return (
     <>
       <PageHero
-        heading="What families say."
-        subheading="Reviews from families across the UK and internationally."
+        heading="What families and students say."
+        subheading="All reviews are taken directly from Google."
       />
 
       <Section>
-        <div className="max-w-2xl">
-          <p className="section-body leading-loose mb-8">
-            Mind's Eye Education is listed on Google Reviews. Read what families have said
-            about working with us, or leave a review of your own.
-          </p>
+        <ReviewCarousel />
+        <div className="mt-10">
           <GoogleReviewsButton />
         </div>
       </Section>
+
+      <CtaBand
+        heading="Ready to talk about your child's education?"
+        body="Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed."
+      />
     </>
   );
 }
