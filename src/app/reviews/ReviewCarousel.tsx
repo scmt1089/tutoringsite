@@ -21,6 +21,12 @@ const reviews = [
     descriptor: "A-level student",
     rating: 5,
   },
+  {
+    quote: "We are so grateful to Habiba for helping our daughter prepare for A level exams. She has gone above and beyond to help our daughter understand Biology and Chemistry in a simpler way. She has a calm, reassuring and systematic approach that made complex topics easy for her to digest. She is very flexible, approachable and friendly. Thank you Habiba for creating such a positive learning environment, my daughter's confidence has definitely increased.",
+    name: "Thesara",
+    descriptor: "Parent",
+    rating: 5,
+  },
 ];
 
 function Stars({ count }: { count: number }) {

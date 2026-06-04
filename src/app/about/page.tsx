@@ -12,21 +12,23 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <PageHero
-        heading="We built Mind's Eye Education because families deserve better than a tutoring marketplace."
-        subheading="We are educational consultants who happen to run a tutoring practice. The distinction matters."
+        heading="We built Mind's Eye Education because families deserve a personalised approach."
+        subheading="We are educational consultants first, and tutors second. Our methods are built on understanding students and their needs."
       />
 
       {/* Opening */}
       <Section>
         <p className="section-body max-w-2xl leading-loose">
-          After years working in education, tutoring students and supporting university
-          applications, we kept seeing the same thing. Families were navigating some of
-          the most consequential decisions of their children's academic lives without
-          anyone to advise them properly. They were buying sessions on platforms without
-          knowing what they actually needed. We started Mind's Eye Education because we had done the
-          research and knew what worked, and we wanted families to have access to that
-          without having to work it out themselves. We function as advisors. We work out
-          the right approach, then bring in the right people to execute on it.
+          After years working in education, we kept noticing the same pattern. Most
+          teaching is focused on content: covering the syllabus and explaining the
+          material. The logical step that is often underserved is understanding precisely
+          how that material applies to questions and what examiners are actually awarding
+          marks for. We have spent years studying mark schemes and application processes
+          at every level, and that research informs everything we do. The same analytical
+          approach runs through both our tutoring and our consultancy work: we know what
+          outcomes require, and we prepare students and families for exactly that. Mind's
+          Eye Education exists so that families can access that knowledge directly,
+          without having to piece it together themselves.
         </p>
       </Section>
 

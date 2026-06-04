@@ -9,18 +9,18 @@ export const metadata: Metadata = {
 const steps = [
   {
     number: "01",
-    title: "Schedule a free call with a founder.",
-    body: "Not a sales call. A genuine conversation. We want to understand your child, what they are finding difficult and what they need to achieve. This takes fifteen minutes and costs nothing. It also means that by the time we suggest a tutor, we know exactly what to look for, informed by years of making these matches.",
+    title: "Tell us about what you need.",
+    body: "Book a free fifteen-minute call with one of the founders. It is a genuine conversation, not a sales call. We want to understand your child properly, where they are now, what they need to achieve, and what kind of person they are. It costs nothing, and it means that by the time we suggest a tutor, we know exactly what to look for.",
   },
   {
     number: "02",
-    title: "Let us find the right tutor.",
-    body: "We match your child with someone from our network of Oxford and Russell Group graduates, people we know personally. We share the tutor's background, and you approve before anything is booked. We have done the vetting; you make the call.",
+    title: "Let us advise on the right approach.",
+    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. We share the tutor's background and you approve before anything is booked. We have done the vetting; you make the call.",
   },
   {
     number: "03",
-    title: "Begin taking lessons and seeing progress.",
-    body: "Sessions run online via video call, at times that suit your family. We accommodate UK and international timezones. Most students start with weekly sessions; the frequency adjusts to what is needed, especially around exam periods.",
+    title: "Receive ongoing, collaborative support.",
+    body: "We stay involved throughout the whole process. Sessions run online at times that suit your family, and we accommodate UK and international timezones. Most students start with weekly sessions and the frequency adjusts to what is needed, especially around exam periods. If something is not working, we adapt.",
   },
 ];
 
