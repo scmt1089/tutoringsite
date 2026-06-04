@@ -10,12 +10,12 @@ const steps = [
   {
     number: "01",
     title: "Tell us about what you need.",
-    body: "Book a free fifteen-minute call with one of the founders. It is a genuine conversation, not a sales call. We want to understand your child properly, where they are now, what they need to achieve, and what kind of person they are. It costs nothing, and it means that by the time we suggest a tutor, we know exactly what to look for.",
+    body: "Book a free fifteen-minute call with one of the founders. We want to understand your child properly: where they are now, what they need to achieve, and what kind of person they are. It costs nothing, and it means that by the time we suggest a tutor, we know exactly what to look for.",
   },
   {
     number: "02",
     title: "Let us advise on the right approach.",
-    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. We share the tutor's background and you approve before anything is booked. We have done the vetting; you make the call.",
+    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. We share the tutor's background with you and you approve before anything is booked.",
   },
   {
     number: "03",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "What if my child does not get on with their tutor?",
-    a: "It happens rarely, and when it does we handle it immediately. We will find an alternative tutor at no extra cost. No awkward conversations required.",
+    a: "It happens rarely, and when it does, we handle it immediately. We will find an alternative tutor at no extra cost.",
   },
   {
     q: "Are your tutors DBS checked?",
