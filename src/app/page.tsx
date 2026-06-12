@@ -89,7 +89,7 @@ export default function HomePage() {
             <HeadingBlock
               label="Our approach"
               heading="Proven strategies backed by data and experience."
-              body="We have developed a deep knowledge of that works for students and their families, based on years of research, observation and pattern analysis. We apply this knowledge with every student, personalising our approach to enable them to truly learn and flourish."
+              body="We have developed a deep knowledge of what works for students and their families, based on years of research, observation and pattern analysis. We apply this knowledge with every student, personalising our approach to enable them to truly learn and flourish."
             />
             <Link href="/about" className="text-link mt-5 inline-block">
               Meet the founders →
