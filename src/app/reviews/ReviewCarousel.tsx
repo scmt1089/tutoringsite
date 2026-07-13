@@ -27,6 +27,48 @@ const reviews = [
     descriptor: "Parent",
     rating: 5,
   },
+  {
+    quote: "Habiba is incredibly helpful and knowledgeable, both on content and its application in exam questions. She has created a Google Drive with common mistakes tailored specifically to me, which is great to keep referring back to. She knows exactly what the examiners want to see.",
+    name: "Aleena",
+    descriptor: "A-level student",
+    rating: 5,
+  },
+  {
+    quote: "Habiba is a fantastic tutor who has really helped me improve my understanding and confidence in Biology. Her teaching style is very effective, encouraging active recall and building on previous knowledge from lesson to lesson. She is also incredibly kind and approachable, which makes lessons comfortable and enjoyable.",
+    name: "Erin",
+    descriptor: "GCSE student",
+    rating: 5,
+  },
+  {
+    quote: "I have been studying A-level Chemistry and Biology with Habiba for a couple of months and her lessons have been incredibly beneficial for my exam technique. As a neurodivergent student with ADHD and ASD, I have never found a teacher as accommodating to my learning style. Her past paper reviews and feedback have also been particularly useful outside of lessons. I would highly recommend her, especially for neurodivergent students.",
+    name: "Alex",
+    descriptor: "A-level student",
+    rating: 5,
+  },
+  {
+    quote: "The teaching has been amazing. I got a lot of support in understanding how to approach exam questions based on patterns found across mark schemes, which has boosted my confidence and performance in Biology. I would certainly recommend.",
+    name: "Mae",
+    descriptor: "A-level student",
+    rating: 5,
+  },
+  {
+    quote: "I have only been working with Habiba for a few weeks for my LNAT preparation, but she is absolutely incredible at what she does. Her specialised feedback and advice has been invaluable and I cannot recommend her enough.",
+    name: "Grace",
+    descriptor: "LNAT student",
+    rating: 5,
+  },
+  {
+    quote: "Before working with Habiba, my daughter had another biology tutor she found quite intimidating. Habiba has completely changed that. She is kind, patient, highly knowledgeable, and has a wonderful ability to break down challenging concepts clearly. Her focus on exam-style questions has strengthened both my daughter's understanding and her confidence. We would highly recommend her to anyone looking for an exceptional biology tutor.",
+    name: "Ewa",
+    descriptor: "Parent",
+    rating: 5,
+  },
+  {
+    quote: "Habiba has been helping me prepare for the LNAT for just over a month. She really understands the requirements of the examination and her way of explaining how to approach each question boosts confidence significantly. Her lessons are clear and structured, and I would recommend her to anyone looking for a tutor.",
+    name: "Vedaant",
+    descriptor: "LNAT student",
+    rating: 5,
+  },
 ];
 
 function Stars({ count }: { count: number }) {
