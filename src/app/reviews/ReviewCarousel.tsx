@@ -89,20 +89,27 @@ export default function ReviewCarousel() {
   const prev = () => setIndex((i) => (i - 1 + reviews.length) % reviews.length);
   const next = () => setIndex((i) => (i + 1) % reviews.length);
 
-  const review = reviews[index];
-
   return (
     <div className="max-w-2xl">
-      <div className="min-h-64">
-        <Stars count={review.rating} />
-        <p className="text-navy-700 leading-loose text-base italic mb-6">
-          &ldquo;{review.quote}&rdquo;
-        </p>
-        <p className="font-serif text-navy-900 text-base">{review.name}</p>
-        <p className="text-navy-400 text-sm">{review.descriptor}</p>
+      <div className="grid mb-8">
+        {reviews.map((r, i) => (
+          <div
+            key={i}
+            className={`[grid-area:1/1] transition-opacity duration-300 ${
+              i === index ? "opacity-100" : "opacity-0 pointer-events-none select-none"
+            }`}
+          >
+            <Stars count={r.rating} />
+            <p className="text-navy-700 leading-loose text-base italic mb-6">
+              &ldquo;{r.quote}&rdquo;
+            </p>
+            <p className="font-serif text-navy-900 text-base">{r.name}</p>
+            <p className="text-navy-400 text-sm">{r.descriptor}</p>
+          </div>
+        ))}
       </div>
 
-      <div className="flex items-center gap-4 mt-8">
+      <div className="flex items-center gap-4">
         <button
           onClick={prev}
           aria-label="Previous review"
