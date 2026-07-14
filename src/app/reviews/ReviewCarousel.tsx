@@ -16,7 +16,7 @@ const reviews = [
     rating: 5,
   },
   {
-    quote: "I've been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she's amazing! I remember when my parents and I were having taster sessions with different tutors so I could find the best one for me and after the first lesson with Habiba, I knew it would be her. She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don't make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :) I definitely recommend Habiba!",
+    quote: "I've been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she's amazing! She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don't make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :) I definitely recommend Habiba!",
     name: "Charlaine",
     descriptor: "A-level student",
     rating: 5,
