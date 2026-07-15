@@ -10,6 +10,12 @@ const reviews = [
     rating: 5,
   },
   {
+    quote: "Sam has been tutoring our son in GCSE Maths and the results have been transformative. He's gone from feeling he was terrible at the subject and hating his lessons at school to being engaged and confident in his abilities. We don't even have to remind him to join the lesson each week; for a 14-year-old with ADHD, that's a result in itself. Sam is incredibly knowledgeable, supportive and kind, and gives our son the time to really understand each topic. We wouldn't hesitate to recommend both Sam and Habiba.",
+    name: "Lisa",
+    descriptor: "Parent",
+    rating: 5,
+  },
+  {
     quote: "My daughter has been having online lessons with Habiba for several months now. My daughter was not sure how to approach vast syllabus of A level Biology, but Habiba made it simpler and less scary to tackle it. Her teaching style is fun and precise and my daughter made a good progress. We added Chemistry as well. It is all up to my daughter to deliver the grades she needs for medical school. We are all grateful for how Habiba supported my daughter academically and emotionally. We highly recommend Habiba!",
     name: "Toko",
     descriptor: "Parent",
@@ -67,12 +73,6 @@ const reviews = [
     quote: "Habiba has been helping me prepare for the LNAT for just over a month. She really understands the requirements of the examination and her way of explaining how to approach each question boosts confidence significantly. Her lessons are clear and structured, and I would recommend her to anyone looking for a tutor.",
     name: "Vedaant",
     descriptor: "LNAT student",
-    rating: 5,
-  },
-  {
-    quote: "Sam has been tutoring our son in GCSE Maths and the results have been transformative. He's gone from feeling he was terrible at the subject and hating his lessons at school to being engaged and confident in his abilities. We don't even have to remind him to join the lesson each week; for a 14-year-old with ADHD, that's a result in itself. Sam is incredibly knowledgeable, supportive and kind, and gives our son the time to really understand each topic. We wouldn't hesitate to recommend both Sam and Habiba.",
-    name: "Lisa",
-    descriptor: "Parent",
     rating: 5,
   },
 ];
