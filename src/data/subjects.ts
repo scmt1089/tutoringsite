@@ -3,7 +3,7 @@ export type Subject = {
   name: string;
   slug: string;
   level: string;
-  group: "entrance" | "school" | "sixthform" | "university";
+  group: "entrance" | "school" | "sixthform" | "university" | "performingarts";
   description: string;
   examBoards?: string[];
   metaTitle: string;
@@ -420,6 +420,37 @@ export const subjects: Subject[] = [
     description: "Our university-level music tutors offer genuine specialist depth across the areas a music degree demands. The gap between A-level and first-year university study is significant, and one-to-one support makes a real difference. We work with students on the specific modules they are taking, adapting to the focus of their course and the standard their department expects.",
     metaTitle: "University Music Tutor | One-to-One Tuition | Mind's Eye Education",
     metaDescription: "One-to-one university-level Music tutoring from conservatoire and Oxford graduates. Tailored to the specific modules and standards of each student's course. Serving UK and international students. Book a free consultation.",
+  },
+  {
+    id: "lamda",
+    name: "LAMDA",
+    slug: "lamda",
+    level: "LAMDA",
+    group: "performingarts",
+    description: "LAMDA exams are graded assessments in communication and performance skills, covering disciplines including verse and prose, acting and public speaking. Our tutors prepare students for specific grades, building the communication confidence and technical skills the mark scheme requires. Sessions are structured around the student's chosen discipline and the particular demands of each grade.",
+    metaTitle: "LAMDA Exam Tutor | One-to-One Tuition | Mind's Eye Education",
+    metaDescription: "One-to-one LAMDA tutoring across verse and prose, acting and public speaking. Preparation tailored to specific grades and disciplines. Serving UK and international students. Book a free consultation.",
+  },
+  {
+    id: "music-theory",
+    name: "Music Theory",
+    slug: "music-theory",
+    level: "All grades",
+    group: "performingarts",
+    description: "Music Theory is the foundation beneath every musical discipline. Our tutors work across all levels of the ABRSM and Trinity syllabi, covering notation and harmony at the introductory grades and the complex analytical work the higher grades require. Sessions are tailored to the specific grade and examination board each student is working towards.",
+    examBoards: ["ABRSM", "Trinity"],
+    metaTitle: "Music Theory Tutor | One-to-One Tuition | Mind's Eye Education",
+    metaDescription: "One-to-one Music Theory tutoring across all ABRSM and Trinity grades. Sessions tailored to each student's grade and examination board. Serving UK and international students. Book a free consultation.",
+  },
+  {
+    id: "singing",
+    name: "Singing",
+    slug: "singing",
+    level: "All levels",
+    group: "performingarts",
+    description: "Our singing tutors work across classical technique, musical theatre and contemporary performance. Sessions are built around each student's goals: grade exam preparation, audition coaching or developing general technique. We focus on the technical foundations the voice requires alongside the musical and interpretive skills the student is working towards.",
+    metaTitle: "Singing Tutor | One-to-One Tuition | Mind's Eye Education",
+    metaDescription: "One-to-one singing tutoring across classical, musical theatre and contemporary styles. Grade exam preparation and audition coaching. Serving UK and international students. Book a free consultation.",
   },
   {
     id: "university-law",

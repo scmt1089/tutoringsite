@@ -12,7 +12,8 @@ const groups = [
   { key: "entrance",   label: "Entrance exams",  sublabel: "7-plus to 13-plus" },
   { key: "school",     label: "School-age",       sublabel: "GCSE and below" },
   { key: "sixthform",  label: "Sixth form",       sublabel: "A-level and IB" },
-  { key: "university", label: "University",       sublabel: "Degree level and admissions" },
+  { key: "university",     label: "University",       sublabel: "Degree level and admissions" },
+  { key: "performingarts", label: "Performing Arts",  sublabel: "LAMDA, music theory and singing" },
 ] as const;
 
 export default function SubjectsPage() {
