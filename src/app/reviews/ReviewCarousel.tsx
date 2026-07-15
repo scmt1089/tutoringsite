@@ -69,6 +69,12 @@ const reviews = [
     descriptor: "LNAT student",
     rating: 5,
   },
+  {
+    quote: "Sam has been tutoring our son in GCSE Maths and the results have been transformative. He's gone from feeling he was terrible at the subject and hating his lessons at school to being engaged and confident in his abilities. We don't even have to remind him to join the lesson each week; for a 14-year-old with ADHD, that's a result in itself. Sam is incredibly knowledgeable, supportive and kind, and gives our son the time to really understand each topic. We wouldn't hesitate to recommend both Sam and Habiba.",
+    name: "Lisa",
+    descriptor: "Parent",
+    rating: 5,
+  },
 ];
 
 function Stars({ count }: { count: number }) {
