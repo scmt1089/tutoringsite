@@ -3,9 +3,21 @@ import { notFound } from "next/navigation";
 import { posts } from "@/data/posts";
 import { Section, CtaBand } from "@/components/ui";
 import OneToOneTutoring from "@/content/posts/one-to-one-tutoring";
+import AqaBiologyPastPapers from "@/content/posts/aqa-biology-past-papers";
+import MarkSchemeExamTechnique from "@/content/posts/mark-scheme-exam-technique";
+import UcasPersonalStatement from "@/content/posts/ucas-personal-statement";
+import LnatPreparation from "@/content/posts/lnat-preparation";
+import MusicTheoryGrade5 from "@/content/posts/music-theory-grade-5";
+import NeurodivergentTutoring from "@/content/posts/neurodivergent-tutoring";
 
 const postContent: Record<string, React.ComponentType> = {
   "one-to-one-tutoring": OneToOneTutoring,
+  "aqa-biology-past-papers": AqaBiologyPastPapers,
+  "mark-scheme-exam-technique": MarkSchemeExamTechnique,
+  "ucas-personal-statement": UcasPersonalStatement,
+  "lnat-preparation": LnatPreparation,
+  "music-theory-grade-5": MusicTheoryGrade5,
+  "neurodivergent-tutoring": NeurodivergentTutoring,
 };
 
 type Props = { params: { slug: string } };
@@ -18,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = posts.find((p) => p.slug === params.slug);
   if (!post) return {};
   return {
-    title: `${post.title} | Mind's Eye Education`,
-    description: post.excerpt,
+    title: post.metaTitle,
+    description: post.metaDescription,
   };
 }
 
@@ -56,6 +68,7 @@ export default function PostPage({ params }: Props) {
           [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-6
           [&_li]:text-navy-700 [&_li]:leading-loose [&_li]:mb-1
           [&_blockquote]:border-l-4 [&_blockquote]:border-gold-500 [&_blockquote]:pl-6 [&_blockquote]:my-8 [&_blockquote]:text-navy-500 [&_blockquote]:italic [&_blockquote]:leading-loose
+          [&_a]:text-gold-600 [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-gold-500
         ">
           <Content />
         </div>

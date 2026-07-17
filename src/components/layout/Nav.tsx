@@ -8,6 +8,7 @@ const navLinks = [
   { label: "Subjects",      href: "/subjects" },
   { label: "How it works",  href: "/how-it-works" },
   { label: "Reviews",       href: "/reviews" },
+  { label: "Blog",          href: "/blog" },
   // { label: "Our tutors",    href: "/tutors" },
   // { label: "Admissions",    href: "/admissions" },
   // { label: "Pricing",       href: "/pricing" },
