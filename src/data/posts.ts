@@ -70,14 +70,4 @@ export const posts: Post[] = [
     metaTitle: "Tutoring for Neurodivergent Students: ADHD, Dyslexia and What Helps | Mind's Eye Education",
     metaDescription: "Neurodivergent students are not underperforming students. They are differently wired students in a system not built for them. Here is what good tutoring for neurodivergent students actually does differently.",
   },
-  {
-    slug: "one-to-one-tutoring",
-    title: "How to get the most out of one-to-one tutoring",
-    date: "15 July 2026",
-    author: "Mind's Eye Education",
-    excerpt: "One-to-one tutoring works differently from classroom teaching, and the students who benefit most understand that difference from the start.",
-    category: "Study advice",
-    metaTitle: "How to Get the Most Out of One-to-One Tutoring | Mind's Eye Education",
-    metaDescription: "One-to-one tutoring works differently from classroom teaching. Here is how to get the most from it.",
-  },
 ];

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { posts } from "@/data/posts";
 import { Section, CtaBand } from "@/components/ui";
-import OneToOneTutoring from "@/content/posts/one-to-one-tutoring";
 import AqaBiologyPastPapers from "@/content/posts/aqa-biology-past-papers";
 import MarkSchemeExamTechnique from "@/content/posts/mark-scheme-exam-technique";
 import UcasPersonalStatement from "@/content/posts/ucas-personal-statement";
@@ -11,7 +10,6 @@ import MusicTheoryGrade5 from "@/content/posts/music-theory-grade-5";
 import NeurodivergentTutoring from "@/content/posts/neurodivergent-tutoring";
 
 const postContent: Record<string, React.ComponentType> = {
-  "one-to-one-tutoring": OneToOneTutoring,
   "aqa-biology-past-papers": AqaBiologyPastPapers,
   "mark-scheme-exam-technique": MarkSchemeExamTechnique,
   "ucas-personal-statement": UcasPersonalStatement,
