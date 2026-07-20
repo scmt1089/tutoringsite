@@ -12,7 +12,7 @@ export type Post = {
 export const posts: Post[] = [
   {
     slug: "aqa-biology-past-papers",
-    title: "We Analysed Ten Years of AQA A-level Biology Papers. Here Is What Keeps Coming Up.",
+    title: "We analysed ten years of AQA A-level Biology papers. Here is what keeps coming up.",
     date: "6 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Most revision advice for A-level Biology is generic. We worked through ten years of AQA past papers to find where the probability is actually concentrated.",
@@ -22,7 +22,7 @@ export const posts: Post[] = [
   },
   {
     slug: "mark-scheme-exam-technique",
-    title: "The Mark Scheme Is the Exam. Here Is What We Mean by That.",
+    title: "The mark scheme is the exam. Here is what we mean by that.",
     date: "9 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Most students use the mark scheme as a checking tool. It is the exam. Understanding what it actually contains is one of the most transferable improvements in exam technique a student can make.",
@@ -32,7 +32,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ucas-personal-statement",
-    title: "What a Strong UCAS Personal Statement Actually Looks Like",
+    title: "What a strong UCAS personal statement actually looks like",
     date: "11 July 2026",
     author: "Mind's Eye Education",
     excerpt: "The UCAS personal statement changed in September 2025. Most advice written before this cycle will send students in the wrong direction on structure.",
@@ -42,7 +42,7 @@ export const posts: Post[] = [
   },
   {
     slug: "lnat-preparation",
-    title: "LNAT Preparation: What the Test Is Actually Assessing and How to Train for It",
+    title: "LNAT preparation: what the test is actually assessing and how to train for it",
     date: "13 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Most students preparing for LNAT are working on the wrong thing. Here is what the test is actually assessing, and what good preparation for each section looks like.",
@@ -52,7 +52,7 @@ export const posts: Post[] = [
   },
   {
     slug: "music-theory-grade-5-topics",
-    title: "Music Theory Grade 5: The Topics Students Consistently Get Wrong",
+    title: "Music Theory Grade 5: the topics students consistently get wrong",
     date: "16 July 2026",
     author: "Mind's Eye Education",
     excerpt: "ABRSM Grade 5 Music Theory has a pass rate of around 60 to 65 per cent. Here are the five topics where marks are most commonly lost, and what to do about them.",
@@ -62,7 +62,7 @@ export const posts: Post[] = [
   },
   {
     slug: "neurodivergent-tutoring",
-    title: "How Neurodivergence Influences Learning Style, and What Good Tutoring Does About It",
+    title: "How neurodivergence influences learning style, and what good tutoring does about it",
     date: "17 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Neurodivergent students are not underperforming students. They are differently wired students in a system not built for them. Here is what good tutoring does about it.",
