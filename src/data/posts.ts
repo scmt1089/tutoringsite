@@ -32,7 +32,7 @@ export const posts: Post[] = [
   },
   {
     slug: "ucas-personal-statement",
-    title: "What a strong UCAS personal statement actually looks like",
+    title: "What a strong UCAS personal statement actually looks like.",
     date: "11 July 2026",
     author: "Mind's Eye Education",
     excerpt: "The UCAS personal statement changed in September 2025. Most advice written before this cycle will send students in the wrong direction on structure.",
@@ -42,7 +42,7 @@ export const posts: Post[] = [
   },
   {
     slug: "lnat-preparation",
-    title: "LNAT preparation: what the test is actually assessing and how to train for it",
+    title: "LNAT preparation: what the test is actually assessing and how to train for it.",
     date: "13 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Most students preparing for LNAT are working on the wrong thing. Here is what the test is actually assessing, and what good preparation for each section looks like.",
@@ -52,7 +52,7 @@ export const posts: Post[] = [
   },
   {
     slug: "music-theory-grade-5-topics",
-    title: "Music Theory Grade 5: the topics students consistently get wrong",
+    title: "Music Theory Grade 5: the topics students consistently get wrong.",
     date: "16 July 2026",
     author: "Mind's Eye Education",
     excerpt: "ABRSM Grade 5 Music Theory has a pass rate of around 60 to 65 per cent. Here are the five topics where marks are most commonly lost, and what to do about them.",
@@ -62,7 +62,7 @@ export const posts: Post[] = [
   },
   {
     slug: "neurodivergent-tutoring",
-    title: "How neurodivergence influences learning style, and what good tutoring does about it",
+    title: "How neurodivergence influences learning style, and what good tutoring does about it.",
     date: "17 July 2026",
     author: "Mind's Eye Education",
     excerpt: "Neurodivergent students are not underperforming students. They are differently wired students in a system not built for them. Here is what good tutoring does about it.",
