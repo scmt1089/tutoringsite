@@ -79,7 +79,7 @@ export default function BookingForm() {
 
       <div className="grid sm:grid-cols-2 gap-4">
         <div>
-          <label className="block text-xs text-navy-500 mb-1">Child's year group</label>
+          <label className="block text-xs text-navy-500 mb-1">Child’s year group</label>
           <input name="yearGroup" type="text" placeholder="e.g. Year 11" className={inputClass} />
         </div>
         <div>

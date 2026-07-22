@@ -3,7 +3,7 @@ import { Section, HeadingBlock, CtaBand, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "How it works",
-  description: "How Mind's Eye Education matches students with the right tutor, from first call to first session.",
+  description: "How Mind’s Eye Education matches students with the right tutor, from first call to first session.",
 };
 
 const steps = [
@@ -15,7 +15,7 @@ const steps = [
   {
     number: "02",
     title: "Let us advise on the right approach.",
-    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. We share the tutor's background with you and you approve before anything is booked.",
+    body: "We think through what your child actually needs and match them with the right person from our network, people we know and have worked with directly. We share the tutor’s background with you and you approve before anything is booked.",
   },
   {
     number: "03",
@@ -27,7 +27,7 @@ const steps = [
 const faqs = [
   {
     q: "How long are sessions?",
-    a: "Most sessions run for sixty or ninety minutes, depending on the student's age and the subject. We recommend sixty minutes for younger students and ninety for A-level and university-level work.",
+    a: "Most sessions run for sixty or ninety minutes, depending on the student’s age and the subject. We recommend sixty minutes for younger students and ninety for A-level and university-level work.",
   },
   {
     q: "What if my child does not get on with their tutor?",

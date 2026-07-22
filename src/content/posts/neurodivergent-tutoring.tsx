@@ -27,7 +27,7 @@ export default function Content() {
 
       <p>The process of applying for these arrangements involves an assessment by an educational psychologist or specialist teacher, and the application goes through the school or examination centre. We can advise on what arrangements are likely to be appropriate and what evidence is typically needed, though the formal application is a matter for the school. One practical note: waiting times for educational psychologist assessments are long in most areas. If your child has not yet been assessed and you think access arrangements might be relevant, it is worth beginning that process significantly earlier than you think necessary.</p>
 
-      <h2>How we approach tutoring for neurodivergent students at Mind's Eye</h2>
+      <h2>How we approach tutoring for neurodivergent students at Mind’s Eye</h2>
 
       <p>We do not run a separate programme for neurodivergent students. Every student we work with receives an approach calibrated to them specifically, and for students who are neurodivergent, that calibration is simply more explicit and more deliberate. We have worked with students with ADHD, dyslexia and autism spectrum conditions across a range of subjects and stages, and we know how much difference the right approach makes when it is genuinely tailored rather than nominally tailored.</p>
 

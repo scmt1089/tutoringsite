@@ -19,7 +19,7 @@ export default function Content() {
 
       <p>Examiners are trained to mark positively, looking for reasons to award marks rather than reasons to withhold them. Good exam technique, then, is the work of ensuring the ideas the mark scheme is looking for appear legibly in the answer.</p>
 
-      <p>An answer that contains the credited idea, even in different words, will generally earn the mark. An answer that circles around the credited idea without quite landing on it will not. The examiner is matching the student's response against the mark scheme rather than reading it holistically and awarding marks on general impression. A student who writes fluently but imprecisely will score less than a student who writes clumsily but precisely, if the precise student has included the specific causal mechanism the mark scheme credits. Precision, in the terms the mark scheme defines, is what earns marks.</p>
+      <p>An answer that contains the credited idea, even in different words, will generally earn the mark. An answer that circles around the credited idea without quite landing on it will not. The examiner is matching the student’s response against the mark scheme rather than reading it holistically and awarding marks on general impression. A student who writes fluently but imprecisely will score less than a student who writes clumsily but precisely, if the precise student has included the specific causal mechanism the mark scheme credits. Precision, in the terms the mark scheme defines, is what earns marks.</p>
 
       <h2>A worked example of A-level exam technique in practice</h2>
 

@@ -55,7 +55,7 @@ export default function UKPage() {
             <HeadingBlock
               label="For UK families"
               heading="The tutoring market is full. Quality is harder to find."
-              body="Most tutoring platforms are marketplaces with hundreds of profiles and no curation. We have spent years getting to know the tutors who are actually exceptional, the ones who understand exam technique and consistently get results. Mind's Eye Education is small by design: every tutor is known to us personally, every match is made deliberately. We work with all major UK exam boards across every key stage."
+              body="Most tutoring platforms are marketplaces with hundreds of profiles and no curation. We have spent years getting to know the tutors who are actually exceptional, the ones who understand exam technique and consistently get results. Mind’s Eye Education is small by design: every tutor is known to us personally, every match is made deliberately. We work with all major UK exam boards across every key stage."
             />
             <Link href="/book" className="text-link mt-5 inline-block">
               Book a free call →

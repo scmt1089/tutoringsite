@@ -22,7 +22,7 @@ const testimonials = [
     attribution: "Toko, parent",
   },
   {
-    quote: "I've been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she's amazing! After the first lesson with Habiba, I knew it would be her. She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don't make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :)",
+    quote: "I’ve been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she’s amazing! After the first lesson with Habiba, I knew it would be her. She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don’t make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :)",
     attribution: "Charlaine, A-level student",
   },
 ];
@@ -97,7 +97,7 @@ export default function HomePage() {
           </div>
           <Image
             src="/founder-photo.jpg"
-            alt="The founders of Mind's Eye Education, Sam Thyr (right) and Habiba al-Khatib (left), wearing mortar boards, hoods and graduation gowns."
+            alt="The founders of Mind’s Eye Education, Sam Thyr (right) and Habiba al-Khatib (left), wearing mortar boards, hoods and graduation gowns."
             width={600}
             height={288}
             className="rounded-lg w-full h-72 object-cover object-top"
@@ -179,7 +179,7 @@ export default function HomePage() {
       </Section>
 
       <CtaBand
-        heading="Ready to talk about your child's education?"
+        heading="Ready to talk about your child’s education?"
         body="Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed."
       />
     </>

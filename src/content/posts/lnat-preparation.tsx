@@ -17,7 +17,7 @@ export default function Content() {
 
       <p>Section A consists of twelve passages, each with three to four multiple choice questions, to be completed in ninety-five minutes. The questions ask what follows from what the passage says, not merely what it says, and that distinction is central to preparing for them well.</p>
 
-      <p>A question asking "which of the following best represents the author's argument?" is asking you to identify the main inferential move in the passage, not to summarise its content. A question asking "which of the following would most weaken the author's claim?" requires you to understand what the argument depends on before you can identify what would undermine it. These are habits of formal reasoning, and they do not develop from doing practice papers alone.</p>
+      <p>A question asking "which of the following best represents the author’s argument?" is asking you to identify the main inferential move in the passage, not to summarise its content. A question asking "which of the following would most weaken the author’s claim?" requires you to understand what the argument depends on before you can identify what would undermine it. These are habits of formal reasoning, and they do not develop from doing practice papers alone.</p>
 
       <p>They develop from reading argumentative prose analytically, over months. Opinion journalism, quality reviews, essays in serious magazines: any prose that makes a sustained argument and can be read actively. The habit you are trying to build is this: to read a paragraph and ask, automatically, "what is this claiming, what is this assuming, and what would need to be true for this to follow?" Once that habit is automatic, the Section A passages become significantly more manageable. Before it is automatic, they remain difficult regardless of how many practice tests you complete.</p>
 
@@ -33,7 +33,7 @@ export default function Content() {
 
       <p>LNAT preparation should begin earlier than most students expect. The reading habit that Section A demands cannot be built in two or three weeks; it requires three to four months of regular, active engagement to become automatic. Students sitting the test in October or November, which covers the majority of top-law applications, are already behind if they begin in late September.</p>
 
-      <p>The single most valuable thing to do right now, before any other preparation, is to begin reading argument-dense prose regularly. Timed practice papers, essay drilling and mark-scheme review can all be layered on as the date approaches. The analytical reading habit cannot be rushed in at the end. If you would like structured LNAT preparation that addresses both sections properly, Habiba works with LNAT candidates throughout the year. <Link href="/book">Book a free fifteen-minute call to discuss your child's timeline.</Link></p>
+      <p>The single most valuable thing to do right now, before any other preparation, is to begin reading argument-dense prose regularly. Timed practice papers, essay drilling and mark-scheme review can all be layered on as the date approaches. The analytical reading habit cannot be rushed in at the end. If you would like structured LNAT preparation that addresses both sections properly, Habiba works with LNAT candidates throughout the year. <Link href="/book">Book a free fifteen-minute call to discuss your child’s timeline.</Link></p>
     </>
   );
 }

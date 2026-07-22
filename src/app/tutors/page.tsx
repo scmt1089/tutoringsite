@@ -4,7 +4,7 @@ import { Section, HeadingBlock, CtaBand, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Our tutors",
-  description: "Oxford and Russell Group graduates with real subject depth. Every tutor in the Mind's Eye Education network is known to us personally.",
+  description: "Oxford and Russell Group graduates with real subject depth. Every tutor in the Mind’s Eye Education network is known to us personally.",
 };
 
 export default function TutorsPage() {
@@ -12,7 +12,7 @@ export default function TutorsPage() {
     <>
       <PageHero
         heading="Our tutors."
-        subheading="Every tutor in the Mind's Eye Education network is known to us personally. All are Oxford or Russell Group graduates, all have real subject depth and a track record of teaching it well."
+        subheading="Every tutor in the Mind’s Eye Education network is known to us personally. All are Oxford or Russell Group graduates, all have real subject depth and a track record of teaching it well."
       />
 
       <Section>

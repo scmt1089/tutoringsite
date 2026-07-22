@@ -4,8 +4,8 @@ import { posts } from "@/data/posts";
 import { PageHero, Section, CtaBand } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Blog | Mind's Eye Education",
-  description: "Thinking on tutoring, exams and getting the most out of education, from the Mind's Eye team.",
+  title: "Blog | Mind’s Eye Education",
+  description: "Thinking on tutoring, exams and getting the most out of education, from the Mind’s Eye team.",
 };
 
 export default function BlogPage() {

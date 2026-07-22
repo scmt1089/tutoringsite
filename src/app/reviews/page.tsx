@@ -5,7 +5,7 @@ import ReviewCarousel from "./ReviewCarousel";
 
 export const metadata: Metadata = {
   title: "Reviews",
-  description: "Read reviews from families and students who have worked with Mind's Eye Education.",
+  description: "Read reviews from families and students who have worked with Mind’s Eye Education.",
 };
 
 export default function ReviewsPage() {
@@ -24,7 +24,7 @@ export default function ReviewsPage() {
       </Section>
 
       <CtaBand
-        heading="Ready to talk about your child's education?"
+        heading="Ready to talk about your child’s education?"
         body="Book a free fifteen-minute call with a founder. An honest conversation about what your child needs, with no obligation to proceed."
       />
     </>

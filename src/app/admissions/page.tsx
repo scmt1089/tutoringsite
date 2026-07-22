@@ -59,7 +59,7 @@ export default function AdmissionsPage() {
 
       <CtaBand
         heading="Ready to get started?"
-        body="Book a free call to discuss your child's application and find out how we can help."
+        body="Book a free call to discuss your child’s application and find out how we can help."
       />
     </>
   );

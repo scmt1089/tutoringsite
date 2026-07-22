@@ -29,7 +29,7 @@ export default function Content() {
 
       <p>The most useful practice is to work through mark schemes before you sit past papers under timed conditions. Read the credited phrases, note the causal language, identify what "explain" means in this context versus "describe." Once you can read a mark scheme fluently, you can read the exam question in the same terms. That shift in frame, from asking "what do I know about this?" to asking "what is this mark scheme going to reward?", is one of the most significant improvements in A-level Biology exam technique a student at any stage of preparation can make.</p>
 
-      <p>If you would like to discuss how these patterns could be applied to your child's specific revision plan, we would be glad to talk it through. <Link href="/book">Book a free fifteen-minute call with a founder.</Link></p>
+      <p>If you would like to discuss how these patterns could be applied to your child’s specific revision plan, we would be glad to talk it through. <Link href="/book">Book a free fifteen-minute call with a founder.</Link></p>
     </>
   );
 }

@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Join as a tutor",
-  description: "Join the Mind's Eye Education tutor network. Oxford and Russell Group graduates with a genuine love of teaching.",
+  description: "Join the Mind’s Eye Education tutor network. Oxford and Russell Group graduates with a genuine love of teaching.",
 };
 
 const criteria = [
@@ -17,7 +17,7 @@ export default function JoinPage() {
   return (
     <>
       <PageHero
-        heading="Join the Mind's Eye Education network."
+        heading="Join the Mind’s Eye Education network."
         subheading="We work with Oxford and Russell Group graduates who take teaching seriously. If that sounds like you, we would like to hear from you."
       />
 

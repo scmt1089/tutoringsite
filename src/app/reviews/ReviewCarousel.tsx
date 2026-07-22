@@ -10,7 +10,7 @@ const reviews = [
     rating: 5,
   },
   {
-    quote: "Sam has been tutoring our son in GCSE Maths and the results have been transformative. He's gone from feeling he was terrible at the subject and hating his lessons at school to being engaged and confident in his abilities. We don't even have to remind him to join the lesson each week; for a 14-year-old with ADHD, that's a result in itself. Sam is incredibly knowledgeable, supportive and kind, and gives our son the time to really understand each topic. We wouldn't hesitate to recommend both Sam and Habiba.",
+    quote: "Sam has been tutoring our son in GCSE Maths and the results have been transformative. He’s gone from feeling he was terrible at the subject and hating his lessons at school to being engaged and confident in his abilities. We don’t even have to remind him to join the lesson each week; for a 14-year-old with ADHD, that’s a result in itself. Sam is incredibly knowledgeable, supportive and kind, and gives our son the time to really understand each topic. We wouldn’t hesitate to recommend both Sam and Habiba.",
     name: "Lisa",
     descriptor: "Parent",
     rating: 5,
@@ -22,13 +22,13 @@ const reviews = [
     rating: 5,
   },
   {
-    quote: "I've been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she's amazing! She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don't make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :) I definitely recommend Habiba!",
+    quote: "I’ve been having tuition with Habiba for a few months now for A-level Biology and Chemistry and she’s amazing! She explains topics that I used to not understand so clearly and goes through exam questions with you so you can be confident on what the mark scheme would expect. She also makes a document for you that contains all your mistakes after doing exam questions so you can keep looking back to make sure you don’t make the same mistake. Besides being an amazing tutor, she is so friendly and kind which makes asking questions not scary at all :) I definitely recommend Habiba!",
     name: "Charlaine",
     descriptor: "A-level student",
     rating: 5,
   },
   {
-    quote: "We are so grateful to Habiba for helping our daughter prepare for A level exams. She has gone above and beyond to help our daughter understand Biology and Chemistry in a simpler way. She has a calm, reassuring and systematic approach that made complex topics easy for her to digest. She is very flexible, approachable and friendly. Thank you Habiba for creating such a positive learning environment, my daughter's confidence has definitely increased.",
+    quote: "We are so grateful to Habiba for helping our daughter prepare for A level exams. She has gone above and beyond to help our daughter understand Biology and Chemistry in a simpler way. She has a calm, reassuring and systematic approach that made complex topics easy for her to digest. She is very flexible, approachable and friendly. Thank you Habiba for creating such a positive learning environment, my daughter’s confidence has definitely increased.",
     name: "Thesara",
     descriptor: "Parent",
     rating: 5,
@@ -64,7 +64,7 @@ const reviews = [
     rating: 5,
   },
   {
-    quote: "Before working with Habiba, my daughter had another biology tutor she found quite intimidating. Habiba has completely changed that. She is kind, patient, highly knowledgeable, and has a wonderful ability to break down challenging concepts clearly. Her focus on exam-style questions has strengthened both my daughter's understanding and her confidence. We would highly recommend her to anyone looking for an exceptional biology tutor.",
+    quote: "Before working with Habiba, my daughter had another biology tutor she found quite intimidating. Habiba has completely changed that. She is kind, patient, highly knowledgeable, and has a wonderful ability to break down challenging concepts clearly. Her focus on exam-style questions has strengthened both my daughter’s understanding and her confidence. We would highly recommend her to anyone looking for an exceptional biology tutor.",
     name: "Ewa",
     descriptor: "Parent",
     rating: 5,

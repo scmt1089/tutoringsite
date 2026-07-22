@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Safeguarding policy",
-  description: "How Mind's Eye Education keeps students safe: DBS checks, online session standards, and how to report a concern.",
+  description: "How Mind’s Eye Education keeps students safe: DBS checks, online session standards, and how to report a concern.",
 };
 
 export default function SafeguardingPage() {
@@ -17,7 +17,7 @@ export default function SafeguardingPage() {
           <div>
             <HeadingBlock label="Our commitment" heading="Safeguarding is a baseline, not a box to tick." />
             <p className="section-body leading-loose mt-2">
-              Mind's Eye Education is committed to the safety and wellbeing of every student we work with.
+              Mind’s Eye Education is committed to the safety and wellbeing of every student we work with.
               This policy applies to all tutors in our network and governs how we operate
               sessions, vet staff, and respond to concerns. It is reviewed annually and
               updated whenever guidance changes.
@@ -27,7 +27,7 @@ export default function SafeguardingPage() {
           <div>
             <h2 className="font-serif text-navy-900 text-2xl mb-3">Designated safeguarding lead</h2>
             <p className="section-body leading-loose">
-              Habiba al-Khatib acts as the designated safeguarding lead (DSL) for Mind's Eye Education.
+              Habiba al-Khatib acts as the designated safeguarding lead (DSL) for Mind’s Eye Education.
               Any safeguarding concern, however minor it may seem, should be reported to
               the DSL in the first instance. Contact: <span className="text-navy-700">safeguarding@mindseye.education</span>.
             </p>
@@ -65,7 +65,7 @@ export default function SafeguardingPage() {
               at <span className="text-navy-700">safeguarding@mindseye.education</span>. All concerns are
               taken seriously, treated confidentially, and escalated to statutory authorities
               where required. If you believe a child is in immediate danger, contact the
-              police or children's services directly.
+              police or children’s services directly.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ export default function SafeguardingPage() {
             <p className="section-body leading-loose">
               Every tutor in our network is required to read and agree to this safeguarding
               policy before working with any student. Tutors must report any concern about a
-              student's welfare to the DSL without delay. They must not investigate concerns
+              student’s welfare to the DSL without delay. They must not investigate concerns
               themselves, make promises of confidentiality to students, or take unilateral
               action without DSL guidance, except where a child is at immediate risk.
             </p>

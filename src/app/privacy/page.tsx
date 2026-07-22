@@ -3,7 +3,7 @@ import { Section, HeadingBlock, PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Privacy policy",
-  description: "How Mind's Eye Education collects, uses, and protects your personal data.",
+  description: "How Mind’s Eye Education collects, uses, and protects your personal data.",
 };
 
 export default function PrivacyPage() {
@@ -17,7 +17,7 @@ export default function PrivacyPage() {
           <div>
             <HeadingBlock label="Overview" heading="We keep this simple." />
             <p className="section-body leading-loose mt-2">
-              Mind's Eye Education (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is committed to
+              Mind’s Eye Education (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is committed to
               protecting your personal data. This policy explains what information we collect,
               how we use it, and what rights you have. We are registered as a data controller
               under UK GDPR. If you have any questions, contact us at{" "}
@@ -35,7 +35,7 @@ export default function PrivacyPage() {
               <li>Your child&rsquo;s name, age, school year, and subjects of interest</li>
               <li>Payment and billing information (processed securely via our payment provider)</li>
               <li>Session notes and progress records, where you have consented to these being kept</li>
-              <li>Communications between you and Mind's Eye Education (emails, messages)</li>
+              <li>Communications between you and Mind’s Eye Education (emails, messages)</li>
               <li>Technical data such as IP address and browser type when you visit our website</li>
             </ul>
           </div>
