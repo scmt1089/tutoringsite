@@ -70,4 +70,14 @@ export const posts: Post[] = [
     metaTitle: "Tutoring for Neurodivergent Students: ADHD, Dyslexia and What Helps | Mind’s Eye Education",
     metaDescription: "Neurodivergent students are not underperforming students. They are differently wired students in a system not built for them. Here is what good tutoring for neurodivergent students actually does differently.",
   },
+  {
+    slug: "nolans-odyssey-teaching-literature",
+    title: "What Nolan’s Odyssey tells us about teaching literature and comprehension.",
+    date: "22 July 2026",
+    author: "Mind’s Eye Education",
+    excerpt: "Christopher Nolan’s The Odyssey sparked a debate about what students actually know. Here is why the film is a timely argument for taking literature and reading comprehension seriously.",
+    category: "English",
+    metaTitle: "Nolan’s Odyssey and the Case for Teaching Literature | Mind’s Eye Education",
+    metaDescription: "Nolan’s The Odyssey sparked a debate about what students actually know. Here is why the film is a timely argument for taking literature and reading comprehension skills seriously in schools.",
+  },
 ];

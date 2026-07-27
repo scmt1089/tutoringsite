@@ -8,14 +8,16 @@ import UcasPersonalStatement from "@/content/posts/ucas-personal-statement";
 import LnatPreparation from "@/content/posts/lnat-preparation";
 import MusicTheoryGrade5 from "@/content/posts/music-theory-grade-5";
 import NeurodivergentTutoring from "@/content/posts/neurodivergent-tutoring";
+import NolansOdysseyTeachingLiterature from "@/content/posts/nolans-odyssey-teaching-literature";
 
 const postContent: Record<string, React.ComponentType> = {
   "aqa-biology-past-papers": AqaBiologyPastPapers,
   "mark-scheme-exam-technique": MarkSchemeExamTechnique,
   "ucas-personal-statement": UcasPersonalStatement,
   "lnat-preparation": LnatPreparation,
-  "music-theory-grade-5": MusicTheoryGrade5,
+  "music-theory-grade-5-topics": MusicTheoryGrade5,
   "neurodivergent-tutoring": NeurodivergentTutoring,
+  "nolans-odyssey-teaching-literature": NolansOdysseyTeachingLiterature,
 };
 
 type Props = { params: { slug: string } };
