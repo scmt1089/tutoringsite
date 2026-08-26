@@ -37,7 +37,7 @@ const config: Config = {
         },
       },
       fontFamily: {
-        serif: ["Georgia", "Times New Roman", "serif"],
+        serif: ["var(--font-playfair)", "Georgia", "serif"],
         sans:  ["Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
