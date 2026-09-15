@@ -106,8 +106,9 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-6 pb-4">
           <GoogleReviewsButton className="text-white/60 hover:text-white/90" />
         </div>
-        <div className="text-xs mt-4">
-          © {new Date().getFullYear()} Mind&#8217;s Eye Education. All rights reserved.
+        <div className="text-xs mt-4 space-y-1">
+          <p>© {new Date().getFullYear()} Mind&#8217;s Eye Education. All rights reserved.</p>
+          <p>Mind&#8217;s Eye Education is a trading name of GC Group FZE.</p>
         </div>
       </div>
     </footer>
