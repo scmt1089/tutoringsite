@@ -463,6 +463,16 @@ export const subjects: Subject[] = [
     metaDescription: "One-to-one singing tutoring across classical, musical theatre and contemporary styles. Grade exam preparation and audition coaching. Serving UK and international students. Book a free consultation.",
   },
   {
+    id: "university-english-literature",
+    name: "University English Literature",
+    slug: "university-english-literature",
+    level: "University",
+    group: "university",
+    description: "English Literature at university demands a significant step up in analytical rigour and critical sophistication. Our tutors work with students on the full range of what a literature degree requires: close reading, the construction of sustained written argument, engagement with secondary criticism and the particular demands of each module and period. Sessions are tailored to the student&#8217;s own course, working with the texts and critical frameworks their department expects.",
+    metaTitle: "University English Literature Tutor | One-to-One Tuition | Mind's Eye Education",
+    metaDescription: "One-to-one university-level English Literature tutoring. We work on close reading, essay craft and critical argument across all periods and modules. Serving UK and international students. Book a free consultation.",
+  },
+  {
     id: "university-law",
     name: "University Law",
     slug: "university-law",
