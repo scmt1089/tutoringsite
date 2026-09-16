@@ -35,6 +35,12 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="mailto:info@mindseye.education"
+            className="text-sm py-2 px-4 border border-white/30 text-white/80 hover:border-white/60 hover:text-white rounded transition-colors"
+          >
+            Email us
+          </a>
           <Link href="/book" className="btn-primary text-sm py-2 px-4">
             Book a free call
           </Link>
@@ -68,6 +74,12 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="mailto:info@mindseye.education"
+            className="text-sm py-2 px-4 border border-white/30 text-white/80 hover:border-white/60 hover:text-white rounded transition-colors text-center"
+          >
+            Email us
+          </a>
           <Link href="/book" className="btn-primary text-sm py-2 px-4 text-center" onClick={() => setOpen(false)}>
             Book a free call
           </Link>
